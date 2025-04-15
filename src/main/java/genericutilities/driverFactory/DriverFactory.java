@@ -1,4 +1,4 @@
-package genericutilities;
+package genericutilities.driverFactory;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;

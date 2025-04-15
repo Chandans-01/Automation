@@ -2,12 +2,13 @@ package stepDefinations;
 
 import java.time.Duration;
 
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
-import genericutilities.DriverFactory;
-import genericutilities.HomePage;
+import genericutilities.driverFactory.DriverFactory;
+import genericutilities.pomRepo.HomePage;
 import hooks.AppHooks;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -18,6 +19,8 @@ public class HomepageTest {
 
 	HomePage homePage = new HomePage(DriverFactory.getDriver());
     WebDriverWait wait = new WebDriverWait(homePage.driver, Duration.ofSeconds(10));
+
+    Actions action = new Actions(DriverFactory.getDriver());
 
 
 	@Given("user is on homepage of flipkart")
@@ -71,6 +74,97 @@ public class HomepageTest {
 
 
     } 
+
+    @Then("mobiles should displays in search results")
+    public void mobiles_should_displays_in_search_results() {
+        
+        Assert.assert
+    }
+
+    @When("user search mobile in the search box")
+    public void user_search_mobile_in_the_search_box() {
+        // Write code here that turns the phrase above into concrete actions
+    }
+
+    @Then("Gift Cards should be display")
+    public void Gift_Cards_should_be_display() {
+        // Write code here that turns the phrase above into concrete actions
+    }
+
+    @Then("Rewards should be display")
+    public void Rewards_should_be_display() {
+        // Write code here that turns the phrase above into concrete actions
+    }
+
+    @Then("Wishlist should be display")
+    public void Wishlist_should_be_display() {
+        // Write code here that turns the phrase above into concrete actions
+    }
+
+    @Then("Orders should be display")
+    public void Orders_should_be_display() {
+        // Write code here that turns the phrase above into concrete actions
+    }
+
+    @Then("Flipkart Plus Zone option should be display")
+    public void Flipkart_Plus_Zone_option_should_be_display() {
+        // Write code here that turns the phrase above into concrete actions
+    }
+
+    @Then("My Profile option should be display")
+    public void My_Profile_option_should_be_display() {
+        // Write code here that turns the phrase above into concrete actions
+    }
+
+    @When("user hover on the Login option")
+    public void user_hover_on_the_Login_option() {
+        // Write code here that turns the phrase above into concrete actions
+    }
+
+    @Then("Download App should be display")
+    public void Download_App_should_be_display() {
+        // Write code here that turns the phrase above into concrete actions
+    }
+
+    @Then("Advertise option should be display")
+    public void Advertise_option_should_be_display() {
+        // Write code here that turns the phrase above into concrete actions
+    }
+
+    @Then("{int} x {int} Customer Care option should be display")
+    public void x_Customer_Care_option_should_be_display(int i, int i2) {
+        // Write code here that turns the phrase above into concrete actions
+    }
+
+    @Then("Notification Preferences option should be display")
+    public void Notification_Preferences_option_should_be_display() {
+        // Write code here that turns the phrase above into concrete actions
+    }
+
+    @When("user hover on the More Help List Dropdown option")
+    public void user_hover_on_the_More_Help_List_Dropdown_option() {
+        // Write code here that turns the phrase above into concrete actions
+    }
+
+    @Then("Seller page should open")
+    public void Seller_page_should_open() {
+        // Write code here that turns the phrase above into concrete actions
+    }
+
+    @When("user clicks on the Become a Seller button")
+    public void user_clicks_on_the_Become_a_Seller_button() {
+        // Write code here that turns the phrase above into concrete actions
+    }
+
+    @Then("Cart page should open")
+    public void Cart_page_should_open() {
+        // Write code here that turns the phrase above into concrete actions
+    }
+
+    @When("user clicks on the Cart button")
+    public void user_clicks_on_the_Cart_button() {
+        // Write code here that turns the phrase above into concrete actions
+    }
 
     
 
