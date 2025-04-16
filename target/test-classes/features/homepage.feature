@@ -27,9 +27,10 @@ Scenario: Verify that more help list dropdown present on the page
 Given user is on homepage of flipkart
 Then more help list dropdown should be present on the page
 
+
 Scenario: Verify that Cart page opened when user clicks on Cart button
 Given user is on homepage of flipkart
-When user clicks on the Cart button 
+When user clicks on the Cart button
 Then Cart page should open
 
 
@@ -42,7 +43,7 @@ Scenario: Verify that More Help List Dropdown options are displayed
 Given user is on homepage of flipkart
 When user hover on the More Help List Dropdown option
 Then Notification Preferences option should be display 
-And 24 x 7 Customer Care option should be display
+And Customer Care option should be display
 And Advertise option should be display
 And Download App should be display
 
