@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="97.466" tests="11" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="5.84" tests="10" errors="0" skipped="0" failures="10">
   <properties>
     <property name="java.specification.version" value="21"/>
-    <property name="webdriver.chrome.driver" value="C:\Users\chandan_sharma\.cache\selenium\chromedriver\win64\135.0.7049.84\chromedriver.exe"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.class.path" value="D:\Project\flipkart\target\test-classes;D:\Project\flipkart\target\classes;C:\Users\chandan_sharma\.m2\repository\org\seleniumhq\selenium\selenium-java\4.28.1\selenium-java-4.28.1.jar;C:\Users\chandan_sharma\.m2\repository\org\seleniumhq\selenium\selenium-api\4.28.1\selenium-api-4.28.1.jar;C:\Users\chandan_sharma\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\chandan_sharma\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.28.1\selenium-chrome-driver-4.28.1.jar;C:\Users\chandan_sharma\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\chandan_sharma\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.28.1\selenium-chromium-driver-4.28.1.jar;C:\Users\chandan_sharma\.m2\repository\org\seleniumhq\selenium\selenium-json\4.28.1\selenium-json-4.28.1.jar;C:\Users\chandan_sharma\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.28.1\selenium-manager-4.28.1.jar;C:\Users\chandan_sharma\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v130\4.28.1\selenium-devtools-v130-4.28.1.jar;C:\Users\chandan_sharma\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v131\4.28.1\selenium-devtools-v131-4.28.1.jar;C:\Users\chandan_sharma\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v132\4.28.1\selenium-devtools-v132-4.28.1.jar;C:\Users\chandan_sharma\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.28.1\selenium-devtools-v85-4.28.1.jar;C:\Users\chandan_sharma\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.28.1\selenium-edge-driver-4.28.1.jar;C:\Users\chandan_sharma\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.28.1\selenium-firefox-driver-4.28.1.jar;C:\Users\chandan_sharma\.m2\repository\org\seleniumhq\selenium\selenium-http\4.28.1\selenium-http-4.28.1.jar;C:\Users\chandan_sharma\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.28.1\selenium-ie-driver-4.28.1.jar;C:\Users\chandan_sharma\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.28.1\selenium-remote-driver-4.28.1.jar;C:\Users\chandan_sharma\.m2\repository\com\google\guava\guava\33.4.0-jre\guava-33.4.0-jre.jar;C:\Users\chandan_sharma\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\chandan_sharma\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\chandan_sharma\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\chandan_sharma\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\chandan_sharma\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\chandan_sharma\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\chandan_sharma\.m2\repository\io\opentelemetry\opentelemetry-api\1.46.0\opentelemetry-api-1.46.0.jar;C:\Users\chandan_sharma\.m2\repository\io\opentelemetry\opentelemetry-context\1.46.0\opentelemetry-context-1.46.0.jar;C:\Users\chandan_sharma\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.46.0\opentelemetry-exporter-logging-1.46.0.jar;C:\Users\chandan_sharma\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.46.0\opentelemetry-sdk-common-1.46.0.jar;C:\Users\chandan_sharma\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.46.0\opentelemetry-sdk-extension-autoconfigure-spi-1.46.0.jar;C:\Users\chandan_sharma\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.46.0\opentelemetry-sdk-extension-autoconfigure-1.46.0.jar;C:\Users\chandan_sharma\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.46.0-alpha\opentelemetry-api-incubator-1.46.0-alpha.jar;C:\Users\chandan_sharma\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.46.0\opentelemetry-sdk-trace-1.46.0.jar;C:\Users\chandan_sharma\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.46.0\opentelemetry-sdk-1.46.0.jar;C:\Users\chandan_sharma\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.46.0\opentelemetry-sdk-metrics-1.46.0.jar;C:\Users\chandan_sharma\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.46.0\opentelemetry-sdk-logs-1.46.0.jar;C:\Users\chandan_sharma\.m2\repository\net\bytebuddy\byte-buddy\1.15.11\byte-buddy-1.15.11.jar;C:\Users\chandan_sharma\.m2\repository\org\seleniumhq\selenium\selenium-os\4.28.1\selenium-os-4.28.1.jar;C:\Users\chandan_sharma\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\chandan_sharma\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.28.1\selenium-safari-driver-4.28.1.jar;C:\Users\chandan_sharma\.m2\repository\org\seleniumhq\selenium\selenium-support\4.28.1\selenium-support-4.28.1.jar;C:\Users\chandan_sharma\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\chandan_sharma\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\chandan_sharma\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\chandan_sharma\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\chandan_sharma\.m2\repository\io\github\bonigarcia\webdrivermanager\5.9.2\webdrivermanager-5.9.2.jar;C:\Users\chandan_sharma\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\chandan_sharma\.m2\repository\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;C:\Users\chandan_sharma\.m2\repository\com\github\docker-java\docker-java\3.4.0\docker-java-3.4.0.jar;C:\Users\chandan_sharma\.m2\repository\com\github\docker-java\docker-java-core\3.4.0\docker-java-core-3.4.0.jar;C:\Users\chandan_sharma\.m2\repository\com\github\docker-java\docker-java-api\3.4.0\docker-java-api-3.4.0.jar;C:\Users\chandan_sharma\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\chandan_sharma\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\chandan_sharma\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\chandan_sharma\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\chandan_sharma\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.4.0\docker-java-transport-httpclient5-3.4.0.jar;C:\Users\chandan_sharma\.m2\repository\com\github\docker-java\docker-java-transport\3.4.0\docker-java-transport-3.4.0.jar;C:\Users\chandan_sharma\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\chandan_sharma\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\chandan_sharma\.m2\repository\org\apache\commons\commons-lang3\3.15.0\commons-lang3-3.15.0.jar;C:\Users\chandan_sharma\.m2\repository\org\apache\commons\commons-compress\1.26.2\commons-compress-1.26.2.jar;C:\Users\chandan_sharma\.m2\repository\commons-codec\commons-codec\1.17.0\commons-codec-1.17.0.jar;C:\Users\chandan_sharma\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\Users\chandan_sharma\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\chandan_sharma\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\chandan_sharma\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\chandan_sharma\.m2\repository\io\cucumber\cucumber-java\7.14.0\cucumber-java-7.14.0.jar;C:\Users\chandan_sharma\.m2\repository\io\cucumber\cucumber-core\7.14.0\cucumber-core-7.14.0.jar;C:\Users\chandan_sharma\.m2\repository\io\cucumber\cucumber-gherkin\7.14.0\cucumber-gherkin-7.14.0.jar;C:\Users\chandan_sharma\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.14.0\cucumber-gherkin-messages-7.14.0.jar;C:\Users\chandan_sharma\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\chandan_sharma\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\chandan_sharma\.m2\repository\io\cucumber\tag-expressions\5.0.6\tag-expressions-5.0.6.jar;C:\Users\chandan_sharma\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\chandan_sharma\.m2\repository\io\cucumber\datatable\7.14.0\datatable-7.14.0.jar;C:\Users\chandan_sharma\.m2\repository\io\cucumber\cucumber-plugin\7.14.0\cucumber-plugin-7.14.0.jar;C:\Users\chandan_sharma\.m2\repository\io\cucumber\docstring\7.14.0\docstring-7.14.0.jar;C:\Users\chandan_sharma\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\chandan_sharma\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\chandan_sharma\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\chandan_sharma\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\chandan_sharma\.m2\repository\io\cucumber\cucumber-testng\7.14.0\cucumber-testng-7.14.0.jar;"/>
@@ -16,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="D:\Java\bin"/>
-    <property name="sun.java.command" value="C:\Users\chandan_sharma\AppData\Local\Temp\surefire6059154875954537071\surefirebooter8827285519012415898.jar C:\Users\chandan_sharma\AppData\Local\Temp\surefire6059154875954537071 2025-04-16T23-02-28_549-jvmRun1 surefire2311558109683170269tmp surefire_011353560243850956405tmp"/>
+    <property name="sun.java.command" value="C:\Users\chandan_sharma\AppData\Local\Temp\surefire15493140138363198994\surefirebooter15829694919833291178.jar C:\Users\chandan_sharma\AppData\Local\Temp\surefire15493140138363198994 2025-04-18T00-19-37_722-jvmRun1 surefire3068227221095239076tmp surefire_013313034508185422352tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\Project\flipkart\target\test-classes;D:\Project\flipkart\target\classes;C:\Users\chandan_sharma\.m2\repository\org\seleniumhq\selenium\selenium-java\4.28.1\selenium-java-4.28.1.jar;C:\Users\chandan_sharma\.m2\repository\org\seleniumhq\selenium\selenium-api\4.28.1\selenium-api-4.28.1.jar;C:\Users\chandan_sharma\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\chandan_sharma\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.28.1\selenium-chrome-driver-4.28.1.jar;C:\Users\chandan_sharma\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\chandan_sharma\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.28.1\selenium-chromium-driver-4.28.1.jar;C:\Users\chandan_sharma\.m2\repository\org\seleniumhq\selenium\selenium-json\4.28.1\selenium-json-4.28.1.jar;C:\Users\chandan_sharma\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.28.1\selenium-manager-4.28.1.jar;C:\Users\chandan_sharma\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v130\4.28.1\selenium-devtools-v130-4.28.1.jar;C:\Users\chandan_sharma\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v131\4.28.1\selenium-devtools-v131-4.28.1.jar;C:\Users\chandan_sharma\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v132\4.28.1\selenium-devtools-v132-4.28.1.jar;C:\Users\chandan_sharma\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.28.1\selenium-devtools-v85-4.28.1.jar;C:\Users\chandan_sharma\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.28.1\selenium-edge-driver-4.28.1.jar;C:\Users\chandan_sharma\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.28.1\selenium-firefox-driver-4.28.1.jar;C:\Users\chandan_sharma\.m2\repository\org\seleniumhq\selenium\selenium-http\4.28.1\selenium-http-4.28.1.jar;C:\Users\chandan_sharma\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.28.1\selenium-ie-driver-4.28.1.jar;C:\Users\chandan_sharma\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.28.1\selenium-remote-driver-4.28.1.jar;C:\Users\chandan_sharma\.m2\repository\com\google\guava\guava\33.4.0-jre\guava-33.4.0-jre.jar;C:\Users\chandan_sharma\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\chandan_sharma\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\chandan_sharma\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\chandan_sharma\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\chandan_sharma\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\chandan_sharma\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\chandan_sharma\.m2\repository\io\opentelemetry\opentelemetry-api\1.46.0\opentelemetry-api-1.46.0.jar;C:\Users\chandan_sharma\.m2\repository\io\opentelemetry\opentelemetry-context\1.46.0\opentelemetry-context-1.46.0.jar;C:\Users\chandan_sharma\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.46.0\opentelemetry-exporter-logging-1.46.0.jar;C:\Users\chandan_sharma\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.46.0\opentelemetry-sdk-common-1.46.0.jar;C:\Users\chandan_sharma\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.46.0\opentelemetry-sdk-extension-autoconfigure-spi-1.46.0.jar;C:\Users\chandan_sharma\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.46.0\opentelemetry-sdk-extension-autoconfigure-1.46.0.jar;C:\Users\chandan_sharma\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.46.0-alpha\opentelemetry-api-incubator-1.46.0-alpha.jar;C:\Users\chandan_sharma\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.46.0\opentelemetry-sdk-trace-1.46.0.jar;C:\Users\chandan_sharma\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.46.0\opentelemetry-sdk-1.46.0.jar;C:\Users\chandan_sharma\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.46.0\opentelemetry-sdk-metrics-1.46.0.jar;C:\Users\chandan_sharma\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.46.0\opentelemetry-sdk-logs-1.46.0.jar;C:\Users\chandan_sharma\.m2\repository\net\bytebuddy\byte-buddy\1.15.11\byte-buddy-1.15.11.jar;C:\Users\chandan_sharma\.m2\repository\org\seleniumhq\selenium\selenium-os\4.28.1\selenium-os-4.28.1.jar;C:\Users\chandan_sharma\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\chandan_sharma\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.28.1\selenium-safari-driver-4.28.1.jar;C:\Users\chandan_sharma\.m2\repository\org\seleniumhq\selenium\selenium-support\4.28.1\selenium-support-4.28.1.jar;C:\Users\chandan_sharma\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\chandan_sharma\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\chandan_sharma\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\chandan_sharma\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\chandan_sharma\.m2\repository\io\github\bonigarcia\webdrivermanager\5.9.2\webdrivermanager-5.9.2.jar;C:\Users\chandan_sharma\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\chandan_sharma\.m2\repository\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;C:\Users\chandan_sharma\.m2\repository\com\github\docker-java\docker-java\3.4.0\docker-java-3.4.0.jar;C:\Users\chandan_sharma\.m2\repository\com\github\docker-java\docker-java-core\3.4.0\docker-java-core-3.4.0.jar;C:\Users\chandan_sharma\.m2\repository\com\github\docker-java\docker-java-api\3.4.0\docker-java-api-3.4.0.jar;C:\Users\chandan_sharma\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\chandan_sharma\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\chandan_sharma\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\chandan_sharma\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\chandan_sharma\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.4.0\docker-java-transport-httpclient5-3.4.0.jar;C:\Users\chandan_sharma\.m2\repository\com\github\docker-java\docker-java-transport\3.4.0\docker-java-transport-3.4.0.jar;C:\Users\chandan_sharma\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\chandan_sharma\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\chandan_sharma\.m2\repository\org\apache\commons\commons-lang3\3.15.0\commons-lang3-3.15.0.jar;C:\Users\chandan_sharma\.m2\repository\org\apache\commons\commons-compress\1.26.2\commons-compress-1.26.2.jar;C:\Users\chandan_sharma\.m2\repository\commons-codec\commons-codec\1.17.0\commons-codec-1.17.0.jar;C:\Users\chandan_sharma\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\Users\chandan_sharma\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\chandan_sharma\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\chandan_sharma\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\chandan_sharma\.m2\repository\io\cucumber\cucumber-java\7.14.0\cucumber-java-7.14.0.jar;C:\Users\chandan_sharma\.m2\repository\io\cucumber\cucumber-core\7.14.0\cucumber-core-7.14.0.jar;C:\Users\chandan_sharma\.m2\repository\io\cucumber\cucumber-gherkin\7.14.0\cucumber-gherkin-7.14.0.jar;C:\Users\chandan_sharma\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.14.0\cucumber-gherkin-messages-7.14.0.jar;C:\Users\chandan_sharma\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\chandan_sharma\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\chandan_sharma\.m2\repository\io\cucumber\tag-expressions\5.0.6\tag-expressions-5.0.6.jar;C:\Users\chandan_sharma\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\chandan_sharma\.m2\repository\io\cucumber\datatable\7.14.0\datatable-7.14.0.jar;C:\Users\chandan_sharma\.m2\repository\io\cucumber\cucumber-plugin\7.14.0\cucumber-plugin-7.14.0.jar;C:\Users\chandan_sharma\.m2\repository\io\cucumber\docstring\7.14.0\docstring-7.14.0.jar;C:\Users\chandan_sharma\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\chandan_sharma\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\chandan_sharma\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\chandan_sharma\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\chandan_sharma\.m2\repository\io\cucumber\cucumber-testng\7.14.0\cucumber-testng-7.14.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\chandan_sharma\AppData\Local\Temp\surefire6059154875954537071\surefirebooter8827285519012415898.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\chandan_sharma\AppData\Local\Temp\surefire15493140138363198994\surefirebooter15829694919833291178.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.4+8-LTS-274"/>
@@ -59,130 +58,305 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="runScenario[&quot;Verify that Flipkart Explore plus button present on the page&quot;, &quot;Homepage&quot;](1)" classname="runner.Runner" time="7.384">
+  <testcase name="runScenario[&quot;Verify that Login popups open when user clicks on Login button&quot;, &quot;Signup and login popup&quot;](1)" classname="runner.Runner" time="0.364">
+    <failure message="The step &apos;user click on Login button&apos; and 1 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@When(&quot;user click on Login button&quot;)&#10;public void user_click_on_login_button() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;Login popup should open&quot;)&#10;public void login_popup_should_open() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.testng.UndefinedStepException"><![CDATA[io.cucumber.testng.UndefinedStepException: 
+The step 'user click on Login button' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@When("user click on Login button")
+public void user_click_on_login_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Login popup should open")
+public void login_popup_should_open() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+]]></failure>
     <system-out><![CDATA[
-Scenario: Verify that Flipkart Explore plus button present on the page # src/test/resources/features/homepage.feature:4
-  Given user is on homepage of flipkart                                # stepDefinations.HomepageTest.user_is_on_homepage_of_flipkart()
-  Then Flipkart Explore plus should be present on the page             # stepDefinations.HomepageTest.Flipkart_Explore_plus_should_be_present_on_the_page()
+Scenario: Verify that Login popups open when user clicks on Login button # src/test/resources/features/loginPopup.feature:3
+  Given user is on homepage of flipkart                                  # stepDefinations.HomepageTest.user_is_on_homepage_of_flipkart()
+  When user click on Login button
+  Then Login popup should open
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Apr 16, 2025 11:02:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 135, returning the closest version; found: 132; Please update to a Selenium version that supports CDP version 135
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Verify that search field present on the page&quot;, &quot;Homepage&quot;](2)" classname="runner.Runner" time="5.742">
+  <testcase name="runScenario[&quot;Verify that Email or mobile number field is present on the Login popup&quot;, &quot;Signup and login popup&quot;](2)" classname="runner.Runner" time="0.032">
+    <failure message="The step &apos;user is on Login popup&apos; and 1 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;user is on Login popup&quot;)&#10;public void user_is_on_login_popup() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;Email or Mobile number field should present on the Login popup&quot;)&#10;public void email_or_mobile_number_field_should_present_on_the_login_popup() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.testng.UndefinedStepException"><![CDATA[io.cucumber.testng.UndefinedStepException: 
+The step 'user is on Login popup' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("user is on Login popup")
+public void user_is_on_login_popup() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Email or Mobile number field should present on the Login popup")
+public void email_or_mobile_number_field_should_present_on_the_login_popup() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+]]></failure>
     <system-out><![CDATA[
-Scenario: Verify that search field present on the page # src/test/resources/features/homepage.feature:9
-  Given user is on homepage of flipkart                # stepDefinations.HomepageTest.user_is_on_homepage_of_flipkart()
-  Then search field should be present on the page      # stepDefinations.HomepageTest.search_field_should_be_present_on_the_page()
+Scenario: Verify that Email or mobile number field is present on the Login popup # src/test/resources/features/loginPopup.feature:8
+  Given user is on Login popup
+  Then Email or Mobile number field should present on the Login popup
 ]]></system-out>
-    <system-err><![CDATA[Apr 16, 2025 11:02:43 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 135, returning the closest version; found: 132; Please update to a Selenium version that supports CDP version 135
-]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Verify that login dropdown present on the page&quot;, &quot;Homepage&quot;](3)" classname="runner.Runner" time="6.32">
+  <testcase name="runScenario[&quot;Verify that Request OTP button is enabled on the Login popup&quot;, &quot;Signup and login popup&quot;](3)" classname="runner.Runner" time="0.038">
+    <failure message="The step &apos;user is on Login popup&apos; and 1 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;user is on Login popup&quot;)&#10;public void user_is_on_login_popup() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;Request OTP button should be enabled&quot;)&#10;public void request_otp_button_should_be_enabled() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.testng.UndefinedStepException"><![CDATA[io.cucumber.testng.UndefinedStepException: 
+The step 'user is on Login popup' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("user is on Login popup")
+public void user_is_on_login_popup() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Request OTP button should be enabled")
+public void request_otp_button_should_be_enabled() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+]]></failure>
     <system-out><![CDATA[
-Scenario: Verify that login dropdown present on the page # src/test/resources/features/homepage.feature:14
-  Given user is on homepage of flipkart                  # stepDefinations.HomepageTest.user_is_on_homepage_of_flipkart()
-  Then login dropdown should be present on the page      # stepDefinations.HomepageTest.login_dropdown_should_be_present_on_the_page()
+Scenario: Verify that Request OTP button is enabled on the Login popup # src/test/resources/features/loginPopup.feature:12
+  Given user is on Login popup
+  Then Request OTP button should be enabled
 ]]></system-out>
-    <system-err><![CDATA[Apr 16, 2025 11:02:48 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 135, returning the closest version; found: 132; Please update to a Selenium version that supports CDP version 135
-]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Verify that Cart button present on the page&quot;, &quot;Homepage&quot;](4)" classname="runner.Runner" time="7.229">
+  <testcase name="runScenario[&quot;Verify that Terms of Use and Privacy Policy links are present on the Login popup&quot;, &quot;Signup and login popup&quot;](4)" classname="runner.Runner" time="0.028">
+    <failure message="The step &apos;user is on Login popup&apos; and 1 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;user is on Login popup&quot;)&#10;public void user_is_on_login_popup() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;Terms of Use and Privacy Policy links should present on the Login popup&quot;)&#10;public void terms_of_use_and_privacy_policy_links_should_present_on_the_login_popup() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.testng.UndefinedStepException"><![CDATA[io.cucumber.testng.UndefinedStepException: 
+The step 'user is on Login popup' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("user is on Login popup")
+public void user_is_on_login_popup() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Terms of Use and Privacy Policy links should present on the Login popup")
+public void terms_of_use_and_privacy_policy_links_should_present_on_the_login_popup() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+]]></failure>
     <system-out><![CDATA[
-Scenario: Verify that Cart button present on the page # src/test/resources/features/homepage.feature:18
-  Given user is on homepage of flipkart               # stepDefinations.HomepageTest.user_is_on_homepage_of_flipkart()
-  Then Cart button should be present on the page      # stepDefinations.HomepageTest.Cart_button_should_be_present_on_the_page()
+Scenario: Verify that Terms of Use and Privacy Policy links are present on the Login popup # src/test/resources/features/loginPopup.feature:16
+  Given user is on Login popup
+  Then Terms of Use and Privacy Policy links should present on the Login popup
 ]]></system-out>
-    <system-err><![CDATA[Apr 16, 2025 11:02:55 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 135, returning the closest version; found: 132; Please update to a Selenium version that supports CDP version 135
-]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Verify that Become a seller button present on the page&quot;, &quot;Homepage&quot;](5)" classname="runner.Runner" time="7.927">
+  <testcase name="runScenario[&quot;Verify that Terms of Use page opened when user clicks on the Terms of Use link&quot;, &quot;Signup and login popup&quot;](5)" classname="runner.Runner" time="0.022">
+    <failure message="The step &apos;user is on Login popup&apos; and 2 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;user is on Login popup&quot;)&#10;public void user_is_on_login_popup() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;user click on Terms of Use link&quot;)&#10;public void user_click_on_terms_of_use_link() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;Terms page should open&quot;)&#10;public void terms_page_should_open() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.testng.UndefinedStepException"><![CDATA[io.cucumber.testng.UndefinedStepException: 
+The step 'user is on Login popup' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("user is on Login popup")
+public void user_is_on_login_popup() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user click on Terms of Use link")
+public void user_click_on_terms_of_use_link() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Terms page should open")
+public void terms_page_should_open() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+]]></failure>
     <system-out><![CDATA[
-Scenario: Verify that Become a seller button present on the page # src/test/resources/features/homepage.feature:22
-  Given user is on homepage of flipkart                          # stepDefinations.HomepageTest.user_is_on_homepage_of_flipkart()
-  Then Become a seller button should be present on the page      # stepDefinations.HomepageTest.Become_a_seller_button_should_be_present_on_the_page()
+Scenario: Verify that Terms of Use page opened when user clicks on the Terms of Use link # src/test/resources/features/loginPopup.feature:20
+  Given user is on Login popup
+  When user click on Terms of Use link
+  Then Terms page should open
 ]]></system-out>
-    <system-err><![CDATA[Apr 16, 2025 11:03:02 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 135, returning the closest version; found: 132; Please update to a Selenium version that supports CDP version 135
-]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Verify that more help list dropdown present on the page&quot;, &quot;Homepage&quot;](6)" classname="runner.Runner" time="7.022">
+  <testcase name="runScenario[&quot;Verify that Privacy Policy page opened when user clicks on the Privacy Policy link&quot;, &quot;Signup and login popup&quot;](6)" classname="runner.Runner" time="0.034">
+    <failure message="The step &apos;user is on Login popup&apos; and 2 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;user is on Login popup&quot;)&#10;public void user_is_on_login_popup() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;user click on Privacy Policy link&quot;)&#10;public void user_click_on_privacy_policy_link() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;Privacy Policy page should open&quot;)&#10;public void privacy_policy_page_should_open() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.testng.UndefinedStepException"><![CDATA[io.cucumber.testng.UndefinedStepException: 
+The step 'user is on Login popup' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("user is on Login popup")
+public void user_is_on_login_popup() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user click on Privacy Policy link")
+public void user_click_on_privacy_policy_link() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Privacy Policy page should open")
+public void privacy_policy_page_should_open() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+]]></failure>
     <system-out><![CDATA[
-Scenario: Verify that more help list dropdown present on the page # src/test/resources/features/homepage.feature:26
-  Given user is on homepage of flipkart                           # stepDefinations.HomepageTest.user_is_on_homepage_of_flipkart()
-  Then more help list dropdown should be present on the page      # stepDefinations.HomepageTest.more_help_list_dropdown_should_be_present_on_the_page()
+Scenario: Verify that Privacy Policy page opened when user clicks on the Privacy Policy link # src/test/resources/features/loginPopup.feature:25
+  Given user is on Login popup
+  When user click on Privacy Policy link
+  Then Privacy Policy page should open
 ]]></system-out>
-    <system-err><![CDATA[Apr 16, 2025 11:03:10 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 135, returning the closest version; found: 132; Please update to a Selenium version that supports CDP version 135
-]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Verify that Cart page opened when user clicks on Cart button&quot;, &quot;Homepage&quot;](7)" classname="runner.Runner" time="20.38">
+  <testcase name="runScenario[&quot;Verify that error displayed when user enters eleven digit mobile number&quot;, &quot;Signup and login popup&quot;](7)" classname="runner.Runner" time="0.08">
+    <failure message="The step &apos;user is on Login popup&apos; and 3 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;user is on Login popup&quot;)&#10;public void user_is_on_login_popup() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Given(&quot;enters {int} digit mobile number&quot;)&#10;public void enters_digit_mobile_number(Integer int1) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Given(&quot;click on Request OTP button&quot;)&#10;public void click_on_request_otp_button() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;error should display&quot;)&#10;public void error_should_display() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.testng.UndefinedStepException"><![CDATA[io.cucumber.testng.UndefinedStepException: 
+The step 'user is on Login popup' and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("user is on Login popup")
+public void user_is_on_login_popup() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("enters {int} digit mobile number")
+public void enters_digit_mobile_number(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("click on Request OTP button")
+public void click_on_request_otp_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("error should display")
+public void error_should_display() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+]]></failure>
     <system-out><![CDATA[
-Scenario: Verify that Cart page opened when user clicks on Cart button # src/test/resources/features/homepage.feature:31
-  Given user is on homepage of flipkart                                # stepDefinations.HomepageTest.user_is_on_homepage_of_flipkart()
-  When user clicks on the Cart button                                  # stepDefinations.HomepageTest.user_clicks_on_the_Cart_button()
-  Then Cart page should open                                           # stepDefinations.HomepageTest.Cart_page_should_open()
+Scenario: Verify that error displayed when user enters eleven digit mobile number # src/test/resources/features/loginPopup.feature:31
+  Given user is on Login popup
+  And enters 11111111111 digit mobile number
+  And click on Request OTP button
+  Then error should display
 ]]></system-out>
-    <system-err><![CDATA[Apr 16, 2025 11:03:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 135, returning the closest version; found: 132; Please update to a Selenium version that supports CDP version 135
-]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Verify that Seller page page opened when user clicks on Become a Seller button&quot;, &quot;Homepage&quot;](8)" classname="runner.Runner" time="10.05">
+  <testcase name="runScenario[&quot;Verify that Sign Up interface opens when user clicks on New to Flipkart button&quot;, &quot;Signup and login popup&quot;](8)" classname="runner.Runner" time="0.033">
+    <failure message="The step &apos;user is on Login popup&apos; and 4 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;user is on Login popup&quot;)&#10;public void user_is_on_login_popup() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;user clicks on New to Flipkart button&quot;)&#10;public void user_clicks_on_new_to_flipkart_button() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;Sign Up interface should open&quot;)&#10;public void sign_up_interface_should_open() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;Continue button should displayed&quot;)&#10;public void continue_button_should_displayed() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;Existing User Log in button should displayed&quot;)&#10;public void existing_user_log_in_button_should_displayed() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.testng.UndefinedStepException"><![CDATA[io.cucumber.testng.UndefinedStepException: 
+The step 'user is on Login popup' and 4 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("user is on Login popup")
+public void user_is_on_login_popup() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user clicks on New to Flipkart button")
+public void user_clicks_on_new_to_flipkart_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Sign Up interface should open")
+public void sign_up_interface_should_open() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Continue button should displayed")
+public void continue_button_should_displayed() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Existing User Log in button should displayed")
+public void existing_user_log_in_button_should_displayed() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+]]></failure>
     <system-out><![CDATA[
-Scenario: Verify that Seller page page opened when user clicks on Become a Seller button # src/test/resources/features/homepage.feature:37
-  Given user is on homepage of flipkart                                                  # stepDefinations.HomepageTest.user_is_on_homepage_of_flipkart()
-  When user clicks on the Become a Seller button                                         # stepDefinations.HomepageTest.user_clicks_on_the_Become_a_Seller_button()
-  Then Seller page should open                                                           # stepDefinations.HomepageTest.Seller_page_should_open()
+Scenario: Verify that Sign Up interface opens when user clicks on New to Flipkart button # src/test/resources/features/loginPopup.feature:38
+  Given user is on Login popup
+  When user clicks on New to Flipkart button
+  Then Sign Up interface should open
+  And Continue button should displayed
+  And Existing User Log in button should displayed
 ]]></system-out>
-    <system-err><![CDATA[Apr 16, 2025 11:03:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 135, returning the closest version; found: 132; Please update to a Selenium version that supports CDP version 135
-]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Verify that More Help List Dropdown options are displayed&quot;, &quot;Homepage&quot;](9)" classname="runner.Runner" time="6.852">
+  <testcase name="runScenario[&quot;Verify that verification OTP sent toast displayed when user Request OTP&quot;, &quot;Signup and login popup&quot;](9)" classname="runner.Runner" time="0.019">
+    <failure message="The step &apos;user is on Login popup&apos; and 4 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;user is on Login popup&quot;)&#10;public void user_is_on_login_popup() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;user enters already existing number&quot;)&#10;public void user_enters_already_existing_number() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;Request OTP&quot;)&#10;public void request_otp() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;verification OTP sent toast should displayed&quot;)&#10;public void verification_otp_sent_toast_should_displayed() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;Enter OTP field should display&quot;)&#10;public void enter_otp_field_should_display() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.testng.UndefinedStepException"><![CDATA[io.cucumber.testng.UndefinedStepException: 
+The step 'user is on Login popup' and 4 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("user is on Login popup")
+public void user_is_on_login_popup() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user enters already existing number")
+public void user_enters_already_existing_number() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Request OTP")
+public void request_otp() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("verification OTP sent toast should displayed")
+public void verification_otp_sent_toast_should_displayed() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Enter OTP field should display")
+public void enter_otp_field_should_display() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+]]></failure>
     <system-out><![CDATA[
-Scenario: Verify that More Help List Dropdown options are displayed # src/test/resources/features/homepage.feature:42
-  Given user is on homepage of flipkart                             # stepDefinations.HomepageTest.user_is_on_homepage_of_flipkart()
-  When user hover on the More Help List Dropdown option             # stepDefinations.HomepageTest.user_hover_on_the_More_Help_List_Dropdown_option()
-  Then Notification Preferences option should be display            # stepDefinations.HomepageTest.Notification_Preferences_option_should_be_display()
-  And Customer Care option should be display                        # stepDefinations.HomepageTest.Customer_Care_option_should_be_display()
-  And Advertise option should be display                            # stepDefinations.HomepageTest.Advertise_option_should_be_display()
-  And Download App should be display                                # stepDefinations.HomepageTest.Download_App_should_be_display()
+Scenario: Verify that verification OTP sent toast displayed when user Request OTP # src/test/resources/features/loginPopup.feature:45
+  Given user is on Login popup
+  When user enters already existing number
+  And Request OTP
+  Then verification OTP sent toast should displayed
+  And Enter OTP field should display
 ]]></system-out>
-    <system-err><![CDATA[Apr 16, 2025 11:03:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 135, returning the closest version; found: 132; Please update to a Selenium version that supports CDP version 135
-]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Verify that Login options are displayed&quot;, &quot;Homepage&quot;](10)" classname="runner.Runner" time="5.501">
+  <testcase name="runScenario[&quot;Verify that Login popup closed when user clicks on X icon&quot;, &quot;Signup and login popup&quot;](10)" classname="runner.Runner" time="0.034">
+    <failure message="The step &apos;user is on Login popup&apos; and 2 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;user is on Login popup&quot;)&#10;public void user_is_on_login_popup() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;user clicks on X icon&quot;)&#10;public void user_clicks_on_x_icon() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;Login popup should closed&quot;)&#10;public void login_popup_should_closed() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.testng.UndefinedStepException"><![CDATA[io.cucumber.testng.UndefinedStepException: 
+The step 'user is on Login popup' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("user is on Login popup")
+public void user_is_on_login_popup() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user clicks on X icon")
+public void user_clicks_on_x_icon() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Login popup should closed")
+public void login_popup_should_closed() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+]]></failure>
     <system-out><![CDATA[
-Scenario: Verify that Login options are displayed # src/test/resources/features/homepage.feature:51
-  Given user is on homepage of flipkart           # stepDefinations.HomepageTest.user_is_on_homepage_of_flipkart()
-  When user hover on the Login option             # stepDefinations.HomepageTest.user_hover_on_the_Login_option()
-  Then My Profile option should be display        # stepDefinations.HomepageTest.My_Profile_option_should_be_display()
-  And Flipkart Plus Zone option should be display # stepDefinations.HomepageTest.Flipkart_Plus_Zone_option_should_be_display()
-  And Orders should be display                    # stepDefinations.HomepageTest.Orders_should_be_display()
-  And Wishlist should be display                  # stepDefinations.HomepageTest.Wishlist_should_be_display()
-  And Rewards should be display                   # stepDefinations.HomepageTest.Rewards_should_be_display()
-  And Gift Cards should be display                # stepDefinations.HomepageTest.Gift_Cards_should_be_display()
+Scenario: Verify that Login popup closed when user clicks on X icon # src/test/resources/features/loginPopup.feature:52
+  Given user is on Login popup
+  When user clicks on X icon
+  Then Login popup should closed
 ]]></system-out>
-    <system-err><![CDATA[Apr 16, 2025 11:03:54 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 135, returning the closest version; found: 132; Please update to a Selenium version that supports CDP version 135
-]]></system-err>
-  </testcase>
-  <testcase name="runScenario[&quot;Verify that Mobiles get searched when user search Mobile in the search box&quot;, &quot;Homepage&quot;](11)" classname="runner.Runner" time="8.002">
-    <system-out><![CDATA[
-Scenario: Verify that Mobiles get searched when user search Mobile in the search box # src/test/resources/features/homepage.feature:61
-  Given user is on homepage of flipkart                                              # stepDefinations.HomepageTest.user_is_on_homepage_of_flipkart()
-  When user search mobile in the search box                                          # stepDefinations.HomepageTest.user_search_mobile_in_the_search_box()
-  Then mobiles should displays in search results                                     # stepDefinations.HomepageTest.mobiles_should_displays_in_search_results()
-]]></system-out>
-    <system-err><![CDATA[Apr 16, 2025 11:03:59 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 135, returning the closest version; found: 132; Please update to a Selenium version that supports CDP version 135
-]]></system-err>
   </testcase>
 </testsuite>
