@@ -52,6 +52,27 @@ public class LoginpopupPage {
     @FindBy(xpath = "//button[text()='✕']")
     WebElement crossIconLoginPopup;
 
+    
+    
+    @FindBy(xpath = "//span[contains(text(),'Sign up')]")
+    WebElement signUpText;
+
+    
+    @FindBy(xpath = "//a[text()='Login']")
+    WebElement loginButton;
+
+    
+
+
+    public WebElement getLoginButton() {
+        return loginButton;
+    }
+
+    public WebElement getSignUpText() {
+        return signUpText;
+    }
+
+
     public WebElement getLogicTextLoginPopup() {
         return logicTextLoginPopup;
     }
@@ -93,14 +114,41 @@ public class LoginpopupPage {
     }
 
 
+    public void clickOnTermsLink(){
 
+        getTermsOfUseLink().click();
+    }
 
+    public void clickOnPrivacyPolicyLink(){
 
+        getPrivacyPolicy().click();
+    }
 
+    public void clickOnRequestOTPButton(){
+
+        getRequestOtpButton().click();
+    }
+
+    public void clickOnNewToFlipkartButton(){
+
+        getNewToFlipkartButton().click();
+    }
     
     
+    public void enterValueInEmailField(String number){
+
+        getEmailAndMobileNumberField().sendKeys("number");
+    }
     
-    
+    public void clickOnCrossButton(){
+
+        getCrossIconLoginPopup().click();
+    }
+
+    public void clickOnLoginButton(){
+
+        getLoginButton().click();
+    }
     
     
 
