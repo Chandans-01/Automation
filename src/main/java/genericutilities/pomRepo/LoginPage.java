@@ -5,11 +5,11 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class LoginpopupPage {
+public class LoginPage {
 
     public WebDriver driver;
 
-    public LoginpopupPage(WebDriver driver){
+    public LoginPage(WebDriver driver){
 
         PageFactory.initElements(driver, this);
 
@@ -19,7 +19,7 @@ public class LoginpopupPage {
 
 
     @FindBy(xpath = "//span[text()='Login']")
-    WebElement logicTextLoginPopup;
+    WebElement logicTextLoginPage;
 
     @FindBy(xpath = "//input[@class='r4vIwl BV+Dqf']")
     WebElement emailAndMobileNumberField;
@@ -50,7 +50,7 @@ public class LoginpopupPage {
     WebElement existingUserButtonSignUP;
 
     @FindBy(xpath = "//button[text()='✕']")
-    WebElement crossIconLoginPopup;
+    WebElement crossIconLoginPage;
 
     
     
@@ -73,8 +73,8 @@ public class LoginpopupPage {
     }
 
 
-    public WebElement getLogicTextLoginPopup() {
-        return logicTextLoginPopup;
+    public WebElement getLogicTextLoginPage() {
+        return logicTextLoginPage;
     }
 
     public WebElement getEmailAndMobileNumberField() {
@@ -109,8 +109,8 @@ public class LoginpopupPage {
         return existingUserButtonSignUP;
     }
 
-    public WebElement getCrossIconLoginPopup() {
-        return crossIconLoginPopup;
+    public WebElement getCrossIconLoginPage() {
+        return crossIconLoginPage;
     }
 
 
@@ -142,7 +142,7 @@ public class LoginpopupPage {
     
     public void clickOnCrossButton(){
 
-        getCrossIconLoginPopup().click();
+        getCrossIconLoginPage().click();
     }
 
     public void clickOnLoginButton(){

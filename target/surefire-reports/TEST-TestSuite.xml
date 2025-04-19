@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="103.123" tests="8" errors="0" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="60.356" tests="8" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="webdriver.chrome.driver" value="C:\Users\chandan_sharma\.cache\selenium\chromedriver\win64\135.0.7049.95\chromedriver.exe"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="D:\Java\bin"/>
-    <property name="sun.java.command" value="C:\Users\chandan_sharma\AppData\Local\Temp\surefire4248990452573778880\surefirebooter12499724874564979587.jar C:\Users\chandan_sharma\AppData\Local\Temp\surefire4248990452573778880 2025-04-18T21-04-51_457-jvmRun1 surefire14601755058094346432tmp surefire_011679848498512100527tmp"/>
+    <property name="sun.java.command" value="C:\Users\chandan_sharma\AppData\Local\Temp\surefire2835757844416401398\surefirebooter12199390617046957718.jar C:\Users\chandan_sharma\AppData\Local\Temp\surefire2835757844416401398 2025-04-19T20-46-30_993-jvmRun1 surefire13720031619860175950tmp surefire_03751822366341725758tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\Project\flipkart\target\test-classes;D:\Project\flipkart\target\classes;C:\Users\chandan_sharma\.m2\repository\org\seleniumhq\selenium\selenium-java\4.28.1\selenium-java-4.28.1.jar;C:\Users\chandan_sharma\.m2\repository\org\seleniumhq\selenium\selenium-api\4.28.1\selenium-api-4.28.1.jar;C:\Users\chandan_sharma\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\chandan_sharma\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.28.1\selenium-chrome-driver-4.28.1.jar;C:\Users\chandan_sharma\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\chandan_sharma\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.28.1\selenium-chromium-driver-4.28.1.jar;C:\Users\chandan_sharma\.m2\repository\org\seleniumhq\selenium\selenium-json\4.28.1\selenium-json-4.28.1.jar;C:\Users\chandan_sharma\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.28.1\selenium-manager-4.28.1.jar;C:\Users\chandan_sharma\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v130\4.28.1\selenium-devtools-v130-4.28.1.jar;C:\Users\chandan_sharma\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v131\4.28.1\selenium-devtools-v131-4.28.1.jar;C:\Users\chandan_sharma\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v132\4.28.1\selenium-devtools-v132-4.28.1.jar;C:\Users\chandan_sharma\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.28.1\selenium-devtools-v85-4.28.1.jar;C:\Users\chandan_sharma\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.28.1\selenium-edge-driver-4.28.1.jar;C:\Users\chandan_sharma\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.28.1\selenium-firefox-driver-4.28.1.jar;C:\Users\chandan_sharma\.m2\repository\org\seleniumhq\selenium\selenium-http\4.28.1\selenium-http-4.28.1.jar;C:\Users\chandan_sharma\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.28.1\selenium-ie-driver-4.28.1.jar;C:\Users\chandan_sharma\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.28.1\selenium-remote-driver-4.28.1.jar;C:\Users\chandan_sharma\.m2\repository\com\google\guava\guava\33.4.0-jre\guava-33.4.0-jre.jar;C:\Users\chandan_sharma\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\chandan_sharma\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\chandan_sharma\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\chandan_sharma\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\chandan_sharma\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\chandan_sharma\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\chandan_sharma\.m2\repository\io\opentelemetry\opentelemetry-api\1.46.0\opentelemetry-api-1.46.0.jar;C:\Users\chandan_sharma\.m2\repository\io\opentelemetry\opentelemetry-context\1.46.0\opentelemetry-context-1.46.0.jar;C:\Users\chandan_sharma\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.46.0\opentelemetry-exporter-logging-1.46.0.jar;C:\Users\chandan_sharma\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.46.0\opentelemetry-sdk-common-1.46.0.jar;C:\Users\chandan_sharma\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.46.0\opentelemetry-sdk-extension-autoconfigure-spi-1.46.0.jar;C:\Users\chandan_sharma\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.46.0\opentelemetry-sdk-extension-autoconfigure-1.46.0.jar;C:\Users\chandan_sharma\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.46.0-alpha\opentelemetry-api-incubator-1.46.0-alpha.jar;C:\Users\chandan_sharma\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.46.0\opentelemetry-sdk-trace-1.46.0.jar;C:\Users\chandan_sharma\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.46.0\opentelemetry-sdk-1.46.0.jar;C:\Users\chandan_sharma\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.46.0\opentelemetry-sdk-metrics-1.46.0.jar;C:\Users\chandan_sharma\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.46.0\opentelemetry-sdk-logs-1.46.0.jar;C:\Users\chandan_sharma\.m2\repository\net\bytebuddy\byte-buddy\1.15.11\byte-buddy-1.15.11.jar;C:\Users\chandan_sharma\.m2\repository\org\seleniumhq\selenium\selenium-os\4.28.1\selenium-os-4.28.1.jar;C:\Users\chandan_sharma\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\chandan_sharma\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.28.1\selenium-safari-driver-4.28.1.jar;C:\Users\chandan_sharma\.m2\repository\org\seleniumhq\selenium\selenium-support\4.28.1\selenium-support-4.28.1.jar;C:\Users\chandan_sharma\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\chandan_sharma\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\chandan_sharma\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\chandan_sharma\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\chandan_sharma\.m2\repository\io\github\bonigarcia\webdrivermanager\5.9.2\webdrivermanager-5.9.2.jar;C:\Users\chandan_sharma\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\chandan_sharma\.m2\repository\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;C:\Users\chandan_sharma\.m2\repository\com\github\docker-java\docker-java\3.4.0\docker-java-3.4.0.jar;C:\Users\chandan_sharma\.m2\repository\com\github\docker-java\docker-java-core\3.4.0\docker-java-core-3.4.0.jar;C:\Users\chandan_sharma\.m2\repository\com\github\docker-java\docker-java-api\3.4.0\docker-java-api-3.4.0.jar;C:\Users\chandan_sharma\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\chandan_sharma\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\chandan_sharma\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\chandan_sharma\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\chandan_sharma\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.4.0\docker-java-transport-httpclient5-3.4.0.jar;C:\Users\chandan_sharma\.m2\repository\com\github\docker-java\docker-java-transport\3.4.0\docker-java-transport-3.4.0.jar;C:\Users\chandan_sharma\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\chandan_sharma\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\chandan_sharma\.m2\repository\org\apache\commons\commons-lang3\3.15.0\commons-lang3-3.15.0.jar;C:\Users\chandan_sharma\.m2\repository\org\apache\commons\commons-compress\1.26.2\commons-compress-1.26.2.jar;C:\Users\chandan_sharma\.m2\repository\commons-codec\commons-codec\1.17.0\commons-codec-1.17.0.jar;C:\Users\chandan_sharma\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\Users\chandan_sharma\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\chandan_sharma\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\chandan_sharma\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\chandan_sharma\.m2\repository\io\cucumber\cucumber-java\7.14.0\cucumber-java-7.14.0.jar;C:\Users\chandan_sharma\.m2\repository\io\cucumber\cucumber-core\7.14.0\cucumber-core-7.14.0.jar;C:\Users\chandan_sharma\.m2\repository\io\cucumber\cucumber-gherkin\7.14.0\cucumber-gherkin-7.14.0.jar;C:\Users\chandan_sharma\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.14.0\cucumber-gherkin-messages-7.14.0.jar;C:\Users\chandan_sharma\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\chandan_sharma\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\chandan_sharma\.m2\repository\io\cucumber\tag-expressions\5.0.6\tag-expressions-5.0.6.jar;C:\Users\chandan_sharma\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\chandan_sharma\.m2\repository\io\cucumber\datatable\7.14.0\datatable-7.14.0.jar;C:\Users\chandan_sharma\.m2\repository\io\cucumber\cucumber-plugin\7.14.0\cucumber-plugin-7.14.0.jar;C:\Users\chandan_sharma\.m2\repository\io\cucumber\docstring\7.14.0\docstring-7.14.0.jar;C:\Users\chandan_sharma\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\chandan_sharma\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\chandan_sharma\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\chandan_sharma\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\chandan_sharma\.m2\repository\io\cucumber\cucumber-testng\7.14.0\cucumber-testng-7.14.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\chandan_sharma\AppData\Local\Temp\surefire4248990452573778880\surefirebooter12499724874564979587.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\chandan_sharma\AppData\Local\Temp\surefire2835757844416401398\surefirebooter12199390617046957718.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.4+8-LTS-274"/>
@@ -59,131 +59,93 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="runScenario[&quot;Verify that Login popups open when user clicks on Login button&quot;, &quot;Signup and login popup&quot;](1)" classname="runner.Runner" time="9.436">
+  <testcase name="runScenario[&quot;Verify that Login pages open when user clicks on Login button&quot;, &quot;Signup and login page&quot;](1)" classname="runner.Runner" time="5.353">
     <system-out><![CDATA[
-Scenario: Verify that Login popups open when user clicks on Login button # src/test/resources/features/loginPopup.feature:3
-  Given user is on Login popup                                           # stepDefinations.LoginpopupTest.user_is_on_login_popup()
-  Then Login popup should open                                           # stepDefinations.LoginpopupTest.login_popup_should_open()
+Scenario: Verify that Login pages open when user clicks on Login button # src/test/resources/features/loginPage.feature:3
+  Given user is on Login page                                           # stepDefinations.LoginPageTest.user_is_on_login_page()
+  Then Login page should open                                           # stepDefinations.LoginPageTest.login_page_should_open()
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Apr 18, 2025 9:05:00 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Apr 19, 2025 8:46:36 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 135, returning the closest version; found: 132; Please update to a Selenium version that supports CDP version 135
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Verify that Email or mobile number field is present on the Login popup&quot;, &quot;Signup and login popup&quot;](2)" classname="runner.Runner" time="8.209">
+  <testcase name="runScenario[&quot;Verify that Email or mobile number field is present on the Login page&quot;, &quot;Signup and login page&quot;](2)" classname="runner.Runner" time="8.894">
     <system-out><![CDATA[
-Scenario: Verify that Email or mobile number field is present on the Login popup # src/test/resources/features/loginPopup.feature:7
-  Given user is on Login popup                                                   # stepDefinations.LoginpopupTest.user_is_on_login_popup()
-  Then Email or Mobile number field should present on the Login popup            # stepDefinations.LoginpopupTest.email_or_mobile_number_field_should_present_on_the_login_popup()
+Scenario: Verify that Email or mobile number field is present on the Login page # src/test/resources/features/loginPage.feature:7
+  Given user is on Login page                                                   # stepDefinations.LoginPageTest.user_is_on_login_page()
+  Then Email or Mobile number field should present on the Login page            # stepDefinations.LoginPageTest.email_or_mobile_number_field_should_present_on_the_login_page()
 ]]></system-out>
-    <system-err><![CDATA[Apr 18, 2025 9:05:08 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Apr 19, 2025 8:46:40 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 135, returning the closest version; found: 132; Please update to a Selenium version that supports CDP version 135
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Verify that Request OTP button is enabled on the Login popup&quot;, &quot;Signup and login popup&quot;](3)" classname="runner.Runner" time="8.483">
+  <testcase name="runScenario[&quot;Verify that Request OTP button is enabled on the Login page&quot;, &quot;Signup and login page&quot;](3)" classname="runner.Runner" time="3.904">
     <system-out><![CDATA[
-Scenario: Verify that Request OTP button is enabled on the Login popup # src/test/resources/features/loginPopup.feature:11
-  Given user is on Login popup                                         # stepDefinations.LoginpopupTest.user_is_on_login_popup()
-  Then Request OTP button should be enabled                            # stepDefinations.LoginpopupTest.request_otp_button_should_be_enabled()
+Scenario: Verify that Request OTP button is enabled on the Login page # src/test/resources/features/loginPage.feature:11
+  Given user is on Login page                                         # stepDefinations.LoginPageTest.user_is_on_login_page()
+  Then Request OTP button should be enabled                           # stepDefinations.LoginPageTest.request_otp_button_should_be_enabled()
 ]]></system-out>
-    <system-err><![CDATA[Apr 18, 2025 9:05:16 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Apr 19, 2025 8:46:49 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 135, returning the closest version; found: 132; Please update to a Selenium version that supports CDP version 135
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Verify that Terms of Use and Privacy Policy links are present on the Login popup&quot;, &quot;Signup and login popup&quot;](4)" classname="runner.Runner" time="7.983">
+  <testcase name="runScenario[&quot;Verify that Terms of Use and Privacy Policy links are present on the Login page&quot;, &quot;Signup and login page&quot;](4)" classname="runner.Runner" time="5.987">
     <system-out><![CDATA[
-Scenario: Verify that Terms of Use and Privacy Policy links are present on the Login popup # src/test/resources/features/loginPopup.feature:15
-  Given user is on Login popup                                                             # stepDefinations.LoginpopupTest.user_is_on_login_popup()
-  Then Terms of Use and Privacy Policy links should present on the Login popup             # stepDefinations.LoginpopupTest.terms_of_use_and_privacy_policy_links_should_present_on_the_login_popup()
+Scenario: Verify that Terms of Use and Privacy Policy links are present on the Login page # src/test/resources/features/loginPage.feature:16
+  Given user is on Login page                                                             # stepDefinations.LoginPageTest.user_is_on_login_page()
+  Then Terms of Use and Privacy Policy links should present on the Login page             # stepDefinations.LoginPageTest.terms_of_use_and_privacy_policy_links_should_present_on_the_login_page()
 ]]></system-out>
-    <system-err><![CDATA[Apr 18, 2025 9:05:25 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Apr 19, 2025 8:46:53 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 135, returning the closest version; found: 132; Please update to a Selenium version that supports CDP version 135
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Verify that Terms of Use page opened when user clicks on the Terms of Use link&quot;, &quot;Signup and login popup&quot;](5)" classname="runner.Runner" time="23.476">
-    <failure message="Expected condition failed: waiting for url to contain &quot;terms&quot;. Current url: &quot;https://www.flipkart.com/account/login?ret=/&quot; (tried for 15 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.28.1&apos;, revision: &apos;73f5ad48a2&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.4&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.95 (de2eb485a195..., userDataDir: C:\Users\CHANDA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60659}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60659/devtoo..., se:cdpVersion: 135.0.7049.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 6111dcedf76819f7eb420c44fb71acd7" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
-Expected condition failed: waiting for url to contain "terms". Current url: "https://www.flipkart.com/account/login?ret=/" (tried for 15 second(s) with 500 milliseconds interval)
-Build info: version: '4.28.1', revision: '73f5ad48a2'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.95 (de2eb485a195..., userDataDir: C:\Users\CHANDA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60659}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60659/devtoo..., se:cdpVersion: 135.0.7049.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 6111dcedf76819f7eb420c44fb71acd7
-]]></failure>
+  <testcase name="runScenario[&quot;Verify that Terms of Use page opened when user clicks on the Terms of Use link&quot;, &quot;Signup and login page&quot;](5)" classname="runner.Runner" time="9.057">
     <system-out><![CDATA[
-Scenario: Verify that Terms of Use page opened when user clicks on the Terms of Use link # src/test/resources/features/loginPopup.feature:19
-  Given user is on Login popup                                                           # stepDefinations.LoginpopupTest.user_is_on_login_popup()
-  When user click on Terms of Use link                                                   # stepDefinations.LoginpopupTest.user_click_on_terms_of_use_link()
-  Then Terms page should open                                                            # stepDefinations.LoginpopupTest.terms_page_should_open()
-      org.openqa.selenium.TimeoutException: Expected condition failed: waiting for url to contain "terms". Current url: "https://www.flipkart.com/account/login?ret=/" (tried for 15 second(s) with 500 milliseconds interval)
-Build info: version: '4.28.1', revision: '73f5ad48a2'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.95 (de2eb485a195..., userDataDir: C:\Users\CHANDA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60659}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60659/devtoo..., se:cdpVersion: 135.0.7049.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 6111dcedf76819f7eb420c44fb71acd7
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-	at stepDefinations.LoginpopupTest.terms_page_should_open(LoginpopupTest.java:83)
-	at ✽.Terms page should open(file:///D:/Project/flipkart/src/test/resources/features/loginPopup.feature:22)
-
+Scenario: Verify that Terms of Use page opened when user clicks on the Terms of Use link # src/test/resources/features/loginPage.feature:21
+  Given user is on Login page                                                            # stepDefinations.LoginPageTest.user_is_on_login_page()
+  When user click on Terms of Use link                                                   # stepDefinations.LoginPageTest.user_click_on_terms_of_use_link()
+  Then Terms page should open                                                            # stepDefinations.LoginPageTest.terms_page_should_open()
 ]]></system-out>
-    <system-err><![CDATA[Apr 18, 2025 9:05:32 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Apr 19, 2025 8:46:59 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 135, returning the closest version; found: 132; Please update to a Selenium version that supports CDP version 135
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Verify that Privacy Policy page opened when user clicks on the Privacy Policy link&quot;, &quot;Signup and login popup&quot;](6)" classname="runner.Runner" time="24.323">
-    <failure message="Expected condition failed: waiting for url to contain &quot;privacypolicy&quot;. Current url: &quot;https://www.flipkart.com/account/login?ret=/&quot; (tried for 15 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.28.1&apos;, revision: &apos;73f5ad48a2&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.4&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.95 (de2eb485a195..., userDataDir: C:\Users\CHANDA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60731}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60731/devtoo..., se:cdpVersion: 135.0.7049.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 965632e568b7bd6d410b20f48df58c0e" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
-Expected condition failed: waiting for url to contain "privacypolicy". Current url: "https://www.flipkart.com/account/login?ret=/" (tried for 15 second(s) with 500 milliseconds interval)
-Build info: version: '4.28.1', revision: '73f5ad48a2'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.95 (de2eb485a195..., userDataDir: C:\Users\CHANDA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60731}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60731/devtoo..., se:cdpVersion: 135.0.7049.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 965632e568b7bd6d410b20f48df58c0e
-]]></failure>
+  <testcase name="runScenario[&quot;Verify that Privacy Policy page opened when user clicks on the Privacy Policy link&quot;, &quot;Signup and login page&quot;](6)" classname="runner.Runner" time="8.852">
     <system-out><![CDATA[
-Scenario: Verify that Privacy Policy page opened when user clicks on the Privacy Policy link # src/test/resources/features/loginPopup.feature:24
-  Given user is on Login popup                                                               # stepDefinations.LoginpopupTest.user_is_on_login_popup()
-  When user click on Privacy Policy link                                                     # stepDefinations.LoginpopupTest.user_click_on_privacy_policy_link()
-  Then Privacy Policy page should open                                                       # stepDefinations.LoginpopupTest.privacy_policy_page_should_open()
-      org.openqa.selenium.TimeoutException: Expected condition failed: waiting for url to contain "privacypolicy". Current url: "https://www.flipkart.com/account/login?ret=/" (tried for 15 second(s) with 500 milliseconds interval)
-Build info: version: '4.28.1', revision: '73f5ad48a2'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.95 (de2eb485a195..., userDataDir: C:\Users\CHANDA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60731}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60731/devtoo..., se:cdpVersion: 135.0.7049.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 965632e568b7bd6d410b20f48df58c0e
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-	at stepDefinations.LoginpopupTest.privacy_policy_page_should_open(LoginpopupTest.java:98)
-	at ✽.Privacy Policy page should open(file:///D:/Project/flipkart/src/test/resources/features/loginPopup.feature:27)
-
+Scenario: Verify that Privacy Policy page opened when user clicks on the Privacy Policy link # src/test/resources/features/loginPage.feature:27
+  Given user is on Login page                                                                # stepDefinations.LoginPageTest.user_is_on_login_page()
+  When user click on Privacy Policy link                                                     # stepDefinations.LoginPageTest.user_click_on_privacy_policy_link()
+  Then Privacy Policy page should open                                                       # stepDefinations.LoginPageTest.privacy_policy_page_should_open()
 ]]></system-out>
-    <system-err><![CDATA[Apr 18, 2025 9:05:56 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Apr 19, 2025 8:47:08 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 135, returning the closest version; found: 132; Please update to a Selenium version that supports CDP version 135
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Verify that error displayed when user enters eleven digit mobile number&quot;, &quot;Signup and login popup&quot;](7)" classname="runner.Runner" time="8.146">
+  <testcase name="runScenario[&quot;Verify that error displayed when user enters eleven digit mobile number&quot;, &quot;Signup and login page&quot;](7)" classname="runner.Runner" time="8.022">
     <system-out><![CDATA[
-Scenario: Verify that error displayed when user enters eleven digit mobile number # src/test/resources/features/loginPopup.feature:30
-  Given user is on Login popup                                                    # stepDefinations.LoginpopupTest.user_is_on_login_popup()
-  And enters "11111111111" digit mobile number                                    # stepDefinations.LoginpopupTest.enters_digit_mobile_number(java.lang.String)
-  And click on Request OTP button                                                 # stepDefinations.LoginpopupTest.click_on_request_otp_button()
-  Then error should display                                                       # stepDefinations.LoginpopupTest.error_should_display()
+Scenario: Verify that error displayed when user enters eleven digit mobile number # src/test/resources/features/loginPage.feature:33
+  Given user is on Login page                                                     # stepDefinations.LoginPageTest.user_is_on_login_page()
+  And enters "11111111111" digit mobile number                                    # stepDefinations.LoginPageTest.enters_digit_mobile_number(java.lang.String)
+  And click on Request OTP button                                                 # stepDefinations.LoginPageTest.click_on_request_otp_button()
+  Then error should display                                                       # stepDefinations.LoginPageTest.error_should_display()
 ]]></system-out>
-    <system-err><![CDATA[Apr 18, 2025 9:06:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Apr 19, 2025 8:47:17 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 135, returning the closest version; found: 132; Please update to a Selenium version that supports CDP version 135
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Verify that Sign Up interface opens when user clicks on New to Flipkart button&quot;, &quot;Signup and login popup&quot;](8)" classname="runner.Runner" time="8.367">
+  <testcase name="runScenario[&quot;Verify that Sign Up interface opens when user clicks on New to Flipkart button&quot;, &quot;Signup and login page&quot;](8)" classname="runner.Runner" time="6.93">
     <system-out><![CDATA[
-Scenario: Verify that Sign Up interface opens when user clicks on New to Flipkart button # src/test/resources/features/loginPopup.feature:37
-  Given user is on Login popup                                                           # stepDefinations.LoginpopupTest.user_is_on_login_popup()
-  When user clicks on New to Flipkart button                                             # stepDefinations.LoginpopupTest.user_clicks_on_new_to_flipkart_button()
-  Then Sign Up interface should open                                                     # stepDefinations.LoginpopupTest.sign_up_interface_should_open()
-  And Continue button should displayed                                                   # stepDefinations.LoginpopupTest.continue_button_should_displayed()
-  And Existing User Log in button should displayed                                       # stepDefinations.LoginpopupTest.existing_user_log_in_button_should_displayed()
+Scenario: Verify that Sign Up interface opens when user clicks on New to Flipkart button # src/test/resources/features/loginPage.feature:40
+  Given user is on Login page                                                            # stepDefinations.LoginPageTest.user_is_on_login_page()
+  When user clicks on New to Flipkart button                                             # stepDefinations.LoginPageTest.user_clicks_on_new_to_flipkart_button()
+  Then Sign Up interface should open                                                     # stepDefinations.LoginPageTest.sign_up_interface_should_open()
+  And Continue button should displayed                                                   # stepDefinations.LoginPageTest.continue_button_should_displayed()
+  And Existing User Log in button should displayed                                       # stepDefinations.LoginPageTest.existing_user_log_in_button_should_displayed()
 ]]></system-out>
-    <system-err><![CDATA[Apr 18, 2025 9:06:29 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Apr 19, 2025 8:47:25 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 135, returning the closest version; found: 132; Please update to a Selenium version that supports CDP version 135
 ]]></system-err>
   </testcase>

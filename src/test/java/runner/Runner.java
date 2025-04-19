@@ -7,7 +7,7 @@ import io.cucumber.testng.CucumberOptions;
 			dryRun = false, 
 			monochrome = true,
 			publish =  true,
-			features="src/test/resources/features/loginPopup.feature",
+			features="src/test/resources/features/loginPage.feature",
 			//"src/test/resources/features/homepage.feature",
 			glue= {"stepDefinations", "hooks"},
 			plugin={"pretty"},
