@@ -9,6 +9,8 @@ public class HomePage {
 
     public WebDriver driver;
 
+    //Constructor is used to initlize the WebDriver.
+
     public HomePage(WebDriver driver){
 
         PageFactory.initElements(driver, this);
@@ -16,6 +18,8 @@ public class HomePage {
 
     }
 
+
+    // Finding the elements of the HomePage by using locaters.
 
     @FindBy(xpath="//div[@class='_16ZfEv']")
     WebElement flipkartExplorePlusButton;
@@ -33,10 +37,6 @@ public class HomePage {
     @FindBy(xpath="//a[@title='Become a Seller']")
     WebElement becomeASellerButton;
 
-//More options list box elements
-
-
-    //a[contains(@title,'more help')]
 
     @FindBy(xpath="//a[contains(@title,'more help')]")
     WebElement moreDropdown;
@@ -54,11 +54,6 @@ public class HomePage {
 
     @FindBy(xpath="//a[contains(@title,'Customer')]")
     WebElement customerCareOptionMoreDropdown;
-
-
-    //Login listbox options elements
-
-    //a[@title='My Profile']
     
     
     @FindBy(xpath="//a[@title='My Profile']")
@@ -81,6 +76,7 @@ public class HomePage {
     WebElement giftCardsOptionLoginDropdown;
 
     
+    // Get method is used to get the elements of the HomePage
 
 
     public WebElement getMoreDropdown() {
@@ -162,6 +158,7 @@ public class HomePage {
         return becomeASellerButton;
     }
 
+    // Methods is used to perfom the action on the elements of the HomePage
 
     public void clickFlipkartExplorePlusButton(){
 

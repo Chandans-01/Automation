@@ -12,6 +12,8 @@ public class AppHooks {
 	
 	public WebDriver driver;
 
+	//Before annotation is used to setup driver
+
 	@Before(order = 0)
 	public void startBrowser() {
 		DriverFactory driverFactory = new DriverFactory();
@@ -24,7 +26,8 @@ public class AppHooks {
 	}
 	
 	
-	
+	//After annotation or method is used to quit session or browser
+
 	@After(order = 0)
 	public void tearDown() {
 		

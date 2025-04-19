@@ -7,7 +7,11 @@ import org.openqa.selenium.support.PageFactory;
 
 public class LoginPage {
 
+
     public WebDriver driver;
+
+
+    // Constructor to initialize the WebDriver instance and initialize all web elements using PageFactory
 
     public LoginPage(WebDriver driver){
 
@@ -17,6 +21,8 @@ public class LoginPage {
 
     }
 
+
+    //Locaters of the Login Page to perform action on it.
 
     @FindBy(xpath = "//span[text()='Login']")
     WebElement logicTextLoginPage;
@@ -63,6 +69,7 @@ public class LoginPage {
 
     
 
+    //Get methods for the locaters to access in project
 
     public WebElement getLoginButton() {
         return loginButton;
@@ -113,6 +120,8 @@ public class LoginPage {
         return crossIconLoginPage;
     }
 
+
+    // Methods to perform action on the LoginPage elements.
 
     public void clickOnTermsLink(){
 
