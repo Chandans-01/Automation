@@ -1,2 +1,3 @@
 genericutilities\pomRepo\HomePage.class
 genericutilities\driverFactory\DriverFactory.class
+genericutilities\pomRepo\LoginPage.class

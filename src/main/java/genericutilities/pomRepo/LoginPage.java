@@ -27,8 +27,8 @@ public class LoginPage {
     @FindBy(xpath = "//span[text()='Login']")
     WebElement logicTextLoginPage;
 
-    @FindBy(xpath = "//input[@class='r4vIwl BV+Dqf']")
-    WebElement emailAndMobileNumberField;
+    @FindBy(xpath = "//input[@class='jwCbxy']")
+    WebElement mobileNumberField;
 
      
     @FindBy(xpath = "//button[text()='Request OTP']")
@@ -40,52 +40,56 @@ public class LoginPage {
     @FindBy(xpath = "//a[text()='Privacy Policy']")
     WebElement privacyPolicy;
 
-    @FindBy(xpath = "//a[text()='New to Flipkart? Create an account']")
-    WebElement newToFlipkartButton;
+    // @FindBy(xpath = "//a[text()='New to Flipkart? Create an account']")
+    // WebElement newToFlipkartButton;
 
-    @FindBy(xpath = "//span[@class='llBOFA']")
-    WebElement fieldErrorMessage;
+    // @FindBy(xpath = "//span[@class='llBOFA']")
+    // WebElement fieldErrorMessage;
 
 
     
-    @FindBy(xpath = "//span[text()='CONTINUE']")
-    WebElement continueButtonSignUp;
+    @FindBy(xpath = "//button[text()='Continue']")
+    WebElement continueButton;
 
 
-    @FindBy(xpath = "//span[text()='Existing User? Log in']")
-    WebElement existingUserButtonSignUP;
+    // @FindBy(xpath = "//span[text()='Existing User? Log in']")
+    // WebElement existingUserButtonSignUP;
 
     @FindBy(xpath = "//button[text()='✕']")
     WebElement crossIconLoginPage;
 
     
     
-    @FindBy(xpath = "//span[contains(text(),'Sign up')]")
-    WebElement signUpText;
+    // @FindBy(xpath = "//span[contains(text(),'Sign up')]")
+    // WebElement signUpText;
 
     
-    @FindBy(xpath = "//a[text()='Login']")
-    WebElement loginButton;
+    // @FindBy(xpath = "//span[text()='Login']")
+    // WebElement loginButton;
+
+    @FindBy(xpath = "//span[text()='Use Email-ID']")
+    WebElement useEmailIdOption;
+
+    @FindBy(css  = "input[type='email']")
+    WebElement mailField;
+
+    
+
+    
+
+    
 
     
 
     //Get methods for the locaters to access in project
-
-    public WebElement getLoginButton() {
-        return loginButton;
-    }
-
-    public WebElement getSignUpText() {
-        return signUpText;
-    }
 
 
     public WebElement getLogicTextLoginPage() {
         return logicTextLoginPage;
     }
 
-    public WebElement getEmailAndMobileNumberField() {
-        return emailAndMobileNumberField;
+    public WebElement getMobileNumberField() {
+        return mobileNumberField;
     }
 
     public WebElement getRequestOtpButton() {
@@ -100,20 +104,8 @@ public class LoginPage {
         return privacyPolicy;
     }
 
-    public WebElement getNewToFlipkartButton() {
-        return newToFlipkartButton;
-    }
-
-    public WebElement getFieldErrorMessage() {
-        return fieldErrorMessage;
-    }
-
-    public WebElement getContinueButtonSignUp() {
-        return continueButtonSignUp;
-    }
-
-    public WebElement getExistingUserButtonSignUP() {
-        return existingUserButtonSignUP;
+    public WebElement getContinueButton() {
+        return continueButton;
     }
 
     public WebElement getCrossIconLoginPage() {
@@ -137,16 +129,16 @@ public class LoginPage {
 
         getRequestOtpButton().click();
     }
+    
+    public void sendvalueInMobileNumField(String number){
 
-    public void clickOnNewToFlipkartButton(){
-
-        getNewToFlipkartButton().click();
+    mobileNumberField.click();
+    mobileNumberField.clear();
+    mobileNumberField.sendKeys(number);
     }
-    
-    
-    public void enterValueInEmailField(String number){
 
-        getEmailAndMobileNumberField().sendKeys("number");
+    public void clickOnContinueButton(){
+        continueButton.click();
     }
     
     public void clickOnCrossButton(){
@@ -154,11 +146,6 @@ public class LoginPage {
         getCrossIconLoginPage().click();
     }
 
-    public void clickOnLoginButton(){
-
-        getLoginButton().click();
-    }
-    
     
 
     

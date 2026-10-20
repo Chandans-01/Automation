@@ -21,83 +21,82 @@ public class HomePage {
 
     // Finding the elements of the HomePage by using locaters.
 
-    @FindBy(xpath="//div[@class='_16ZfEv']")
-    WebElement flipkartExplorePlusButton;
-
-    @FindBy(xpath="//input[@class='Pke_EE']")
+    @FindBy(xpath="(//input[contains(@placeholder, 'Search for Products')])[1]")
     WebElement searchField;
+
+    @FindBy(xpath ="//span[text()='✕']")
+    WebElement loginDialogCrossIcon;
+
 
     @FindBy(xpath="//span[text()='Login']")
     WebElement loginDropdown;
 
-    @FindBy(xpath="//a[text()='Cart']")
-    WebElement cartButton;
+
+    @FindBy(xpath="//span[text()='Cart']")
+    WebElement cartButtonText;
+//
+
+    @FindBy(xpath="//span[text()='Become a Seller']")
+    WebElement becomeASellerLink;
 
 
-    @FindBy(xpath="//a[@title='Become a Seller']")
-    WebElement becomeASellerButton;
-
-
-    @FindBy(xpath="//a[contains(@title,'more help')]")
+    @FindBy(xpath="//a[@title='More' and .//span[normalize-space()='More']]")
     WebElement moreDropdown;
 
 
-    @FindBy(xpath="//a[@title='Notification Preferences']")
-    WebElement notificationPreferencesOptionMoreDropdown;
+     @FindBy(xpath="//div[text()='Notification Settings']")
+     WebElement notificationSettingsMoreDropdown;
+
+    public WebElement getNotificationSettingsMoreDropdown() {
+        return notificationSettingsMoreDropdown;
+    }
 
 
-    @FindBy(xpath="//a[@title='Advertise']")
-    WebElement advertiseOptionMoreDropdown;
+    @FindBy(xpath="//div[text()='Advertise on Flipkart']")
+    WebElement advertiseOnFlipkartOptionMoreDropdown;
+    
 
-    @FindBy(xpath="//a[@title='Download App']")
-    WebElement downloadAppOptionMoreDropdown;
+    public WebElement getAdvertiseOnFlipkartOptionMoreDropdown() {
+        return advertiseOnFlipkartOptionMoreDropdown;
+    }
 
-    @FindBy(xpath="//a[contains(@title,'Customer')]")
+    @FindBy(xpath="(//img[@class='egDnY0']/..//div[text()='24x7 Customer Care'])[2]")
     WebElement customerCareOptionMoreDropdown;
     
     
-    @FindBy(xpath="//a[@title='My Profile']")
+    @FindBy(xpath="//div[text()='My Profile']")
     WebElement myProfileOptionLoginDropdown;
 
 
-    @FindBy(xpath="//a[@title='Flipkart Plus Zone']")
+    @FindBy(xpath="//div[text()='Flipkart Plus Zone']")
     WebElement flipkartPlusZoneOptionLoginDropdown;
 
-    @FindBy(xpath="//a[@title='Orders']")
+    @FindBy(xpath="//div[text()='Orders']")
     WebElement ordersOptionLoginDropdown;
 
-    @FindBy(xpath="//a[@title='Wishlist']")
+    @FindBy(xpath="//div[text()='Wishlist']")
     WebElement wishlistOptionLoginDropdown;
 
-    @FindBy(xpath="//a[@title='Rewards']")
+    @FindBy(xpath="//div[text()='Rewards']")
     WebElement rewardsOptionLoginDropdown;
 
-    @FindBy(xpath="//a[@title='Gift Cards']")
+    @FindBy(xpath="//div[text()='Gift Cards']")
     WebElement giftCardsOptionLoginDropdown;
+
+    @FindBy(css = ".bUyoc9")
+    WebElement loginDialogText;
 
     
     // Get method is used to get the elements of the HomePage
 
 
+    public WebElement getLoginDialogCrossIcon(){
+
+        return loginDialogCrossIcon;
+    }
     public WebElement getMoreDropdown() {
         return moreDropdown;
     }
-
-
-    public WebElement getNotificationPreferencesOptionMoreDropdown() {
-        return notificationPreferencesOptionMoreDropdown;
-    }
-
-
-    public WebElement getAdvertiseOptionMoreDropdown() {
-        return advertiseOptionMoreDropdown;
-    }
-
-
-    public WebElement getDownloadAppOptionMoreDropdown() {
-        return downloadAppOptionMoreDropdown;
-    }
-
 
     public WebElement getCustomerCareOptionMoreDropdown() {
         return customerCareOptionMoreDropdown;
@@ -134,11 +133,6 @@ public class HomePage {
     }
 
 
-    public WebElement getFlipkartExplorePlusButton() {
-        return flipkartExplorePlusButton;
-    }
-
-
     public WebElement getSearchField() {
         return searchField;
     }
@@ -149,21 +143,20 @@ public class HomePage {
     }
 
 
-    public WebElement getCartButton() {
-        return cartButton;
+    public WebElement getCartButtonText() {
+        return cartButtonText;
     }
 
 
-    public WebElement getBecomeASellerButton() {
-        return becomeASellerButton;
+    public WebElement getBecomeASellerLink() {
+        return becomeASellerLink;
+    }
+
+    public WebElement getLoginDialogText(){
+        return this.loginDialogText;
     }
 
     // Methods is used to perfom the action on the elements of the HomePage
-
-    public void clickFlipkartExplorePlusButton(){
-
-        getFlipkartExplorePlusButton().click();
-    }
 
     public void enterValueInSearchField(String value){
         getSearchField().sendKeys(value);
@@ -176,14 +169,18 @@ public class HomePage {
 
     }
 
-    public void clickCartButton(){
-        getCartButton().click();
+    public void clickLoginDialogCrossIcon(){
+        loginDialogCrossIcon.click();
+    }
+
+    public void clickCartButtonText(){
+        getCartButtonText().click();
 
 
     }
 
-    public void clickBecomeASellerButton(){
-        getBecomeASellerButton().click();
+    public void clickBecomeASellerLink(){
+        getBecomeASellerLink().click();
 
 
     }

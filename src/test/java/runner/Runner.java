@@ -11,12 +11,13 @@ import io.cucumber.testng.CucumberOptions;
 			dryRun = false, 
 			monochrome = true,
 			publish =  true,
-			features="src/test/resources/features/loginPage.feature",
-			//"src/test/resources/features/homepage.feature",
+			features={"src/test/resources/features/loginPage.feature",
+			"src/test/resources/features/homepage.feature"},
 			glue= {"stepDefinations", "hooks"},
 			plugin={"pretty"},
 			tags= ""
 			)
+
 
 
 public class Runner extends AbstractTestNGCucumberTests{

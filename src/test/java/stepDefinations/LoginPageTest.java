@@ -3,6 +3,7 @@ package stepDefinations;
 import java.time.Duration;
 import java.util.Set;
 
+import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
@@ -26,11 +27,18 @@ public class LoginPageTest {
      @Given("user is on Login page")
     public void user_is_on_login_page() {
         
-        loginPage.driver.get("https://www.flipkart.com");
-        loginPage.clickOnLoginButton();
+        loginPage.driver.get("https://www.flipkart.com/login?ret=/");
+      //  loginPage.clickOnLoginButton();
 
 
     }
+
+    @When("user enters {string} mobile number")
+public void user_enters_mobile_number(String string) {
+    
+    wait.until(ExpectedConditions.elementToBeClickable(loginPage.getMobileNumberField()));
+    loginPage.sendvalueInMobileNumField(string);
+}
   
 
  
@@ -42,21 +50,23 @@ public void login_page_should_open() {
     Assert.assertTrue(loginPage.getLogicTextLoginPage().isDisplayed(), "Login page not opened");
 }
 
-@Then("Email or Mobile number field should present on the Login page")
-public void email_or_mobile_number_field_should_present_on_the_login_page() {
+@Then("Mobile number field should present on the Login page")
+public void mobile_number_field_should_present_on_the_login_page() {
     
-    wait.until(ExpectedConditions.visibilityOf(loginPage.getLogicTextLoginPage()));
-    Assert.assertTrue(loginPage.getEmailAndMobileNumberField().isDisplayed(), "Field not displayed");
+    wait.until(ExpectedConditions.visibilityOf(loginPage.getMobileNumberField()));
+    Assert.assertTrue(loginPage.getMobileNumberField().isDisplayed(), "Field not displayed");
 }
 
 
 
 
-@Then("Request OTP button should be enabled")
-public void request_otp_button_should_be_enabled() {
+
+
+@Then("Continue button should be enabled")
+public void continue_button_should_be_enabled() {
     
-    wait.until(ExpectedConditions.visibilityOf(loginPage.getLogicTextLoginPage()));
-    Assert.assertTrue(loginPage.getRequestOtpButton().isEnabled(), "Request OTP button is not enabled");
+    wait.until(ExpectedConditions.elementToBeClickable(loginPage.getContinueButton()));
+    Assert.assertTrue(loginPage.getContinueButton().isEnabled(), "Continue button is not enabled");
 
 }
 
@@ -65,7 +75,7 @@ public void request_otp_button_should_be_enabled() {
 @Then("Terms of Use and Privacy Policy links should present on the Login page")
 public void terms_of_use_and_privacy_policy_links_should_present_on_the_login_page() {
     
-    wait.until(ExpectedConditions.visibilityOf(loginPage.getLogicTextLoginPage()));
+    wait.until(ExpectedConditions.visibilityOf(loginPage.getTermsOfUseLink()));
     Assert.assertTrue(loginPage.getTermsOfUseLink().isDisplayed(), "Terms link isn't present");
 }
 
@@ -132,48 +142,30 @@ public void privacy_policy_page_should_open() {
 @Given("enters {string} digit mobile number")
 public void enters_digit_mobile_number(String s) {
     
-    loginPage.enterValueInEmailField(s);
+     wait.until(ExpectedConditions.elementToBeClickable(loginPage.getMobileNumberField()));
+    loginPage.sendvalueInMobileNumField(s);
 }
 
 
 @Given("click on Request OTP button")
-public void click_on_request_otp_button() {
+public void click_on_continue_button() {
     
-    loginPage.clickOnRequestOTPButton();
-}
-@Then("error should display")
-public void error_should_display() {
-    
-    wait.until(ExpectedConditions.visibilityOf(loginPage.getFieldErrorMessage()));
-    Assert.assertTrue(loginPage.getFieldErrorMessage().isDisplayed(), "Error message isn't displayed");
-
+    loginPage.clickOnContinueButton();
 }
 
-
-
-@When("user clicks on New to Flipkart button")
-public void user_clicks_on_new_to_flipkart_button() {
+@Then("Continue button should disable")
+public void continue_button_should_disable() {
     
-    loginPage.clickOnNewToFlipkartButton();
-}
-@Then("Sign Up interface should open")
-public void sign_up_interface_should_open() {
-    
-    wait.until(ExpectedConditions.visibilityOf(loginPage.getSignUpText()));
-    Assert.assertTrue(loginPage.getSignUpText().isDisplayed(), "sign up interface isn't displayed");
+    //wait.until(ExpectedConditions.invisibilityOf(loginPage.getContinueButton()));
+    Assert.assertFalse(loginPage.getContinueButton().isEnabled(), "Continue button isn't disabled");
+
 }
 
 @Then("Continue button should displayed")
 public void continue_button_should_displayed() {
 
-    wait.until(ExpectedConditions.visibilityOf(loginPage.getSignUpText()));
-    Assert.assertTrue(loginPage.getContinueButtonSignUp().isDisplayed(), "Continue button isn't displayed");
-}
-@Then("Existing User Log in button should displayed")
-public void existing_user_log_in_button_should_displayed() {
-    
-    wait.until(ExpectedConditions.visibilityOf(loginPage.getExistingUserButtonSignUP()));
-    Assert.assertTrue(loginPage.getExistingUserButtonSignUP().isDisplayed(), "Existing user button isn't displayed");
+    wait.until(ExpectedConditions.visibilityOf(loginPage.getContinueButton()));
+    Assert.assertTrue(loginPage.getContinueButton().isDisplayed(), "Continue button isn't displayed");
 }
 
 

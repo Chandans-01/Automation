@@ -1,3 +1,4 @@
 runner\Runner.class
+stepDefinations\LoginPageTest.class
 hooks\AppHooks.class
 stepDefinations\HomepageTest.class

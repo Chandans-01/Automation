@@ -24,35 +24,36 @@ public class HomepageTest {
 
 
 	@Given("user is on homepage of flipkart")
-    public void user_is_on_homepage_of_flipkart() {
+    public void user_is_on_homepage_of_flipkart() throws InterruptedException {
 
 
 
         homePage.driver.get("https://www.flipkart.com");
 
+        //Handling of hiddenDivision LoginPopup, closing by clicking outside of the dailog
+
+        wait.until(ExpectedConditions.visibilityOf(homePage.getLoginDialogText()));
+        
+        homePage.clickLoginDialogCrossIcon();
+        
+
         
     }
 
-    @Then("more help list dropdown should be present on the page")
-    public void more_help_list_dropdown_should_be_present_on_the_page() {
+    @Then("Become a seller link should be present on the page")
+    public void Become_a_seller_link_should_be_present_on_the_page() {
         
+        wait.until(ExpectedConditions.visibilityOf(homePage.getBecomeASellerLink()));
         
-    }
-
-    @Then("Become a seller button should be present on the page")
-    public void Become_a_seller_button_should_be_present_on_the_page() {
-        
-        wait.until(ExpectedConditions.visibilityOf(homePage.getBecomeASellerButton()));
-        
-        Assert.assertEquals(homePage.getBecomeASellerButton().isDisplayed(), true);
+        Assert.assertEquals(homePage.getBecomeASellerLink().isDisplayed(), true);
     }
 
     @Then("Cart button should be present on the page")
     public void Cart_button_should_be_present_on_the_page() {
         
 
-        wait.until(ExpectedConditions.visibilityOf(homePage.getCartButton()));
-        Assert.assertTrue(homePage.getCartButton().isDisplayed(), "Cart Button no displayed");
+        wait.until(ExpectedConditions.visibilityOf(homePage.getCartButtonText()));
+        Assert.assertTrue(homePage.getCartButtonText().isDisplayed(), "Cart Button no displayed");
     }
 
     @Then("login dropdown should be present on the page")
@@ -66,14 +67,6 @@ public class HomepageTest {
         
         Assert.assertTrue(homePage.getSearchField().isDisplayed(), "search field is not present");
     }
-
-    @Then("Flipkart Explore plus should be present on the page")
-    public void Flipkart_Explore_plus_should_be_present_on_the_page() {
-        
-        Assert.assertTrue(homePage.getFlipkartExplorePlusButton().isDisplayed(),"Flipkart Explore Plus not visible");
-
-
-    } 
 
     @Then("mobiles should displays in search results")
     public void mobiles_should_displays_in_search_results() {
@@ -138,19 +131,12 @@ public class HomepageTest {
         action.moveToElement(homePage.getLoginDropdown()).perform();
     }
 
-    @Then("Download App should be display")
-    public void Download_App_should_be_display() {
-        
-        wait.until(ExpectedConditions.visibilityOf(homePage.getDownloadAppOptionMoreDropdown()));
-        Assert.assertTrue(homePage.getDownloadAppOptionMoreDropdown().isDisplayed(), "DownloadApp option is not displayed in Login dropdown");
-        
-    }
-
+   
     @Then("Advertise option should be display")
     public void Advertise_option_should_be_display() {
 
-        wait.until(ExpectedConditions.visibilityOf(homePage.getAdvertiseOptionMoreDropdown()));
-        Assert.assertTrue(homePage.getAdvertiseOptionMoreDropdown().isDisplayed(), "Advertise option is not displayed in Login dropdown");
+        wait.until(ExpectedConditions.visibilityOf(homePage.getAdvertiseOnFlipkartOptionMoreDropdown()));
+        Assert.assertTrue(homePage.getAdvertiseOnFlipkartOptionMoreDropdown().isDisplayed(), "Advertise option is not displayed in Login dropdown");
     }
 
     @Then("Customer Care option should be display")
@@ -163,8 +149,8 @@ public class HomepageTest {
     @Then("Notification Preferences option should be display")
     public void Notification_Preferences_option_should_be_display() {
        
-        wait.until(ExpectedConditions.visibilityOf(homePage.getNotificationPreferencesOptionMoreDropdown()));
-        Assert.assertTrue(homePage.getNotificationPreferencesOptionMoreDropdown().isDisplayed(), "Notification Preferences option is not displayed in Login dropdown");
+        wait.until(ExpectedConditions.visibilityOf(homePage.getNotificationSettingsMoreDropdown()));
+        Assert.assertTrue(homePage.getNotificationSettingsMoreDropdown().isDisplayed(), "Notification Preferences option is not displayed in Login dropdown");
     }
 
     @When("user hover on the More Help List Dropdown option")
@@ -183,10 +169,10 @@ public class HomepageTest {
         Assert.assertTrue(sellerPageUrl.contains("seller"), "Seller page not opened");
     }
 
-    @When("user clicks on the Become a Seller button")
-    public void user_clicks_on_the_Become_a_Seller_button() {
+    @When("user clicks on the Become a Seller link")
+    public void user_clicks_on_the_Become_a_Seller_link() {
         
-        homePage.clickBecomeASellerButton();
+        homePage.clickBecomeASellerLink();
     }
 
     @Then("Cart page should open")
@@ -201,7 +187,7 @@ public class HomepageTest {
     @When("user clicks on the Cart button")
     public void user_clicks_on_the_Cart_button() {
         
-        homePage.clickCartButton();
+        homePage.clickCartButtonText();
     }
 
    
