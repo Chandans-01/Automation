@@ -2,12 +2,11 @@ package stepDefinations;
 
 import java.time.Duration;
 import java.util.Set;
-
-import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
+import config.ConfigReader;
 import genericutilities.driverFactory.DriverFactory;
 import genericutilities.pomRepo.HomePage;
 import genericutilities.pomRepo.LoginPage;
@@ -21,13 +20,13 @@ public class LoginPageTest {
     LoginPage loginPage = new LoginPage(DriverFactory.getDriver());
     HomePage homePage = new HomePage(DriverFactory.getDriver());
     WebDriverWait wait = new WebDriverWait(loginPage.driver,Duration.ofSeconds(15));
-
+    ConfigReader configReader = new ConfigReader();
    
 
      @Given("user is on Login page")
     public void user_is_on_login_page() {
         
-        loginPage.driver.get("https://www.flipkart.com/login?ret=/");
+        loginPage.driver.get(configReader.getLoginPageUrl());
       //  loginPage.clickOnLoginButton();
 
 

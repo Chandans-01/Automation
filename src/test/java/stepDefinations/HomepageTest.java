@@ -1,6 +1,7 @@
 package stepDefinations;
 
 import java.time.Duration;
+import config.ConfigReader;
 
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.interactions.Actions;
@@ -21,6 +22,7 @@ public class HomepageTest {
     WebDriverWait wait = new WebDriverWait(homePage.driver, Duration.ofSeconds(10));
 
     Actions action = new Actions(DriverFactory.getDriver());
+    ConfigReader configReader = new ConfigReader();
 
 
 	@Given("user is on homepage of flipkart")
@@ -28,7 +30,7 @@ public class HomepageTest {
 
 
 
-        homePage.driver.get("https://www.flipkart.com");
+        homePage.driver.get(configReader.getHomePageUrl());
 
         //Handling of hiddenDivision LoginPopup, closing by clicking outside of the dailog
 

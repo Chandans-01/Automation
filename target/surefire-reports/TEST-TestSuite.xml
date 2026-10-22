@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="107.581" tests="16" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="114.627" tests="16" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="webdriver.chrome.driver" value="C:\Users\chandan.sharma\.cache\selenium\chromedriver\win64\155.0.8059.84\chromedriver.exe"/>
@@ -17,7 +17,7 @@
     <property name="user.country" value="IN"/>
     <property name="session.topDirectory" value="D:\flipkart-selenium"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21.0.11\bin"/>
-    <property name="sun.java.command" value="C:\Users\chandan.sharma\AppData\Local\Temp\surefire1565288290222550752\surefirebooter3624953852579106367.jar C:\Users\chandan.sharma\AppData\Local\Temp\surefire1565288290222550752 2026-10-22T14-46-53_506-jvmRun1 surefire10844168736044696616tmp surefire_07249378123081644563tmp"/>
+    <property name="sun.java.command" value="C:\Users\chandan.sharma\AppData\Local\Temp\surefire16028271276727047579\surefirebooter11158206217537523204.jar C:\Users\chandan.sharma\AppData\Local\Temp\surefire16028271276727047579 2026-10-22T15-59-37_555-jvmRun1 surefire9966270549148447581tmp surefire_010520055101931532354tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\flipkart-selenium\target\test-classes;D:\flipkart-selenium\target\classes;C:\Users\chandan.sharma\.m2\repository\org\seleniumhq\selenium\selenium-java\4.28.1\selenium-java-4.28.1.jar;C:\Users\chandan.sharma\.m2\repository\org\seleniumhq\selenium\selenium-api\4.28.1\selenium-api-4.28.1.jar;C:\Users\chandan.sharma\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\chandan.sharma\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.28.1\selenium-chrome-driver-4.28.1.jar;C:\Users\chandan.sharma\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\chandan.sharma\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.28.1\selenium-chromium-driver-4.28.1.jar;C:\Users\chandan.sharma\.m2\repository\org\seleniumhq\selenium\selenium-json\4.28.1\selenium-json-4.28.1.jar;C:\Users\chandan.sharma\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.28.1\selenium-manager-4.28.1.jar;C:\Users\chandan.sharma\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v130\4.28.1\selenium-devtools-v130-4.28.1.jar;C:\Users\chandan.sharma\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v131\4.28.1\selenium-devtools-v131-4.28.1.jar;C:\Users\chandan.sharma\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v132\4.28.1\selenium-devtools-v132-4.28.1.jar;C:\Users\chandan.sharma\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.28.1\selenium-devtools-v85-4.28.1.jar;C:\Users\chandan.sharma\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.28.1\selenium-edge-driver-4.28.1.jar;C:\Users\chandan.sharma\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.28.1\selenium-firefox-driver-4.28.1.jar;C:\Users\chandan.sharma\.m2\repository\org\seleniumhq\selenium\selenium-http\4.28.1\selenium-http-4.28.1.jar;C:\Users\chandan.sharma\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.28.1\selenium-ie-driver-4.28.1.jar;C:\Users\chandan.sharma\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.28.1\selenium-remote-driver-4.28.1.jar;C:\Users\chandan.sharma\.m2\repository\com\google\guava\guava\33.4.0-jre\guava-33.4.0-jre.jar;C:\Users\chandan.sharma\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\chandan.sharma\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\chandan.sharma\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\chandan.sharma\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\chandan.sharma\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\chandan.sharma\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\chandan.sharma\.m2\repository\io\opentelemetry\opentelemetry-api\1.46.0\opentelemetry-api-1.46.0.jar;C:\Users\chandan.sharma\.m2\repository\io\opentelemetry\opentelemetry-context\1.46.0\opentelemetry-context-1.46.0.jar;C:\Users\chandan.sharma\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.46.0\opentelemetry-exporter-logging-1.46.0.jar;C:\Users\chandan.sharma\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.46.0\opentelemetry-sdk-common-1.46.0.jar;C:\Users\chandan.sharma\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.46.0\opentelemetry-sdk-extension-autoconfigure-spi-1.46.0.jar;C:\Users\chandan.sharma\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.46.0\opentelemetry-sdk-extension-autoconfigure-1.46.0.jar;C:\Users\chandan.sharma\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.46.0-alpha\opentelemetry-api-incubator-1.46.0-alpha.jar;C:\Users\chandan.sharma\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.46.0\opentelemetry-sdk-trace-1.46.0.jar;C:\Users\chandan.sharma\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.46.0\opentelemetry-sdk-1.46.0.jar;C:\Users\chandan.sharma\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.46.0\opentelemetry-sdk-metrics-1.46.0.jar;C:\Users\chandan.sharma\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.46.0\opentelemetry-sdk-logs-1.46.0.jar;C:\Users\chandan.sharma\.m2\repository\net\bytebuddy\byte-buddy\1.15.11\byte-buddy-1.15.11.jar;C:\Users\chandan.sharma\.m2\repository\org\seleniumhq\selenium\selenium-os\4.28.1\selenium-os-4.28.1.jar;C:\Users\chandan.sharma\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\chandan.sharma\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.28.1\selenium-safari-driver-4.28.1.jar;C:\Users\chandan.sharma\.m2\repository\org\seleniumhq\selenium\selenium-support\4.28.1\selenium-support-4.28.1.jar;C:\Users\chandan.sharma\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\chandan.sharma\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\chandan.sharma\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\chandan.sharma\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\chandan.sharma\.m2\repository\io\github\bonigarcia\webdrivermanager\5.9.2\webdrivermanager-5.9.2.jar;C:\Users\chandan.sharma\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\chandan.sharma\.m2\repository\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;C:\Users\chandan.sharma\.m2\repository\com\github\docker-java\docker-java\3.4.0\docker-java-3.4.0.jar;C:\Users\chandan.sharma\.m2\repository\com\github\docker-java\docker-java-core\3.4.0\docker-java-core-3.4.0.jar;C:\Users\chandan.sharma\.m2\repository\com\github\docker-java\docker-java-api\3.4.0\docker-java-api-3.4.0.jar;C:\Users\chandan.sharma\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\chandan.sharma\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\chandan.sharma\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\chandan.sharma\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\chandan.sharma\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.4.0\docker-java-transport-httpclient5-3.4.0.jar;C:\Users\chandan.sharma\.m2\repository\com\github\docker-java\docker-java-transport\3.4.0\docker-java-transport-3.4.0.jar;C:\Users\chandan.sharma\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\chandan.sharma\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\chandan.sharma\.m2\repository\org\apache\commons\commons-lang3\3.15.0\commons-lang3-3.15.0.jar;C:\Users\chandan.sharma\.m2\repository\org\apache\commons\commons-compress\1.26.2\commons-compress-1.26.2.jar;C:\Users\chandan.sharma\.m2\repository\commons-codec\commons-codec\1.17.0\commons-codec-1.17.0.jar;C:\Users\chandan.sharma\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\Users\chandan.sharma\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\chandan.sharma\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\chandan.sharma\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\chandan.sharma\.m2\repository\io\cucumber\cucumber-java\7.14.0\cucumber-java-7.14.0.jar;C:\Users\chandan.sharma\.m2\repository\io\cucumber\cucumber-core\7.14.0\cucumber-core-7.14.0.jar;C:\Users\chandan.sharma\.m2\repository\io\cucumber\cucumber-gherkin\7.14.0\cucumber-gherkin-7.14.0.jar;C:\Users\chandan.sharma\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.14.0\cucumber-gherkin-messages-7.14.0.jar;C:\Users\chandan.sharma\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\chandan.sharma\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\chandan.sharma\.m2\repository\io\cucumber\tag-expressions\5.0.6\tag-expressions-5.0.6.jar;C:\Users\chandan.sharma\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\chandan.sharma\.m2\repository\io\cucumber\datatable\7.14.0\datatable-7.14.0.jar;C:\Users\chandan.sharma\.m2\repository\io\cucumber\cucumber-plugin\7.14.0\cucumber-plugin-7.14.0.jar;C:\Users\chandan.sharma\.m2\repository\io\cucumber\docstring\7.14.0\docstring-7.14.0.jar;C:\Users\chandan.sharma\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\chandan.sharma\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\chandan.sharma\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\chandan.sharma\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\chandan.sharma\.m2\repository\io\cucumber\cucumber-testng\7.14.0\cucumber-testng-7.14.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -32,7 +32,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\chandan.sharma\AppData\Local\Temp\surefire1565288290222550752\surefirebooter3624953852579106367.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\chandan.sharma\AppData\Local\Temp\surefire16028271276727047579\surefirebooter11158206217537523204.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.11+9-LTS-211"/>
@@ -60,7 +60,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="runScenario[&quot;Verify that search field present on the page&quot;, &quot;Homepage&quot;](1)" classname="runner.Runner" time="11.039">
+  <testcase name="runScenario[&quot;Verify that search field present on the page&quot;, &quot;Homepage&quot;](1)" classname="runner.Runner" time="8.793">
     <system-out><![CDATA[
 Scenario: Verify that search field present on the page # src/test/resources/features/homepage.feature:4
   Given user is on homepage of flipkart                # stepDefinations.HomepageTest.user_is_on_homepage_of_flipkart()
@@ -69,75 +69,75 @@ Scenario: Verify that search field present on the page # src/test/resources/feat
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Oct 22, 2026 2:47:01 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Oct 22, 2026 3:59:44 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 155
-Oct 22, 2026 2:47:02 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+Oct 22, 2026 3:59:44 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
 WARNING: Unable to find version of CDP to use for 155.0.8059.85. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Verify that login dropdown present on the page&quot;, &quot;Homepage&quot;](2)" classname="runner.Runner" time="7.078">
+  <testcase name="runScenario[&quot;Verify that login dropdown present on the page&quot;, &quot;Homepage&quot;](2)" classname="runner.Runner" time="6.227">
     <system-out><![CDATA[
 Scenario: Verify that login dropdown present on the page # src/test/resources/features/homepage.feature:9
   Given user is on homepage of flipkart                  # stepDefinations.HomepageTest.user_is_on_homepage_of_flipkart()
   Then login dropdown should be present on the page      # stepDefinations.HomepageTest.login_dropdown_should_be_present_on_the_page()
 ]]></system-out>
-    <system-err><![CDATA[Oct 22, 2026 2:47:10 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Oct 22, 2026 3:59:51 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 155
-Oct 22, 2026 2:47:10 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+Oct 22, 2026 3:59:51 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
 WARNING: Unable to find version of CDP to use for 155.0.8059.85. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Verify that Cart button present on the page&quot;, &quot;Homepage&quot;](3)" classname="runner.Runner" time="6.478">
+  <testcase name="runScenario[&quot;Verify that Cart button present on the page&quot;, &quot;Homepage&quot;](3)" classname="runner.Runner" time="6.509">
     <system-out><![CDATA[
 Scenario: Verify that Cart button present on the page # src/test/resources/features/homepage.feature:13
   Given user is on homepage of flipkart               # stepDefinations.HomepageTest.user_is_on_homepage_of_flipkart()
   Then Cart button should be present on the page      # stepDefinations.HomepageTest.Cart_button_should_be_present_on_the_page()
 ]]></system-out>
-    <system-err><![CDATA[Oct 22, 2026 2:47:17 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Oct 22, 2026 3:59:57 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 155
-Oct 22, 2026 2:47:17 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+Oct 22, 2026 3:59:57 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
 WARNING: Unable to find version of CDP to use for 155.0.8059.85. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Verify that Become a seller link present on the page&quot;, &quot;Homepage&quot;](4)" classname="runner.Runner" time="5.694">
+  <testcase name="runScenario[&quot;Verify that Become a seller link present on the page&quot;, &quot;Homepage&quot;](4)" classname="runner.Runner" time="7.247">
     <system-out><![CDATA[
 Scenario: Verify that Become a seller link present on the page # src/test/resources/features/homepage.feature:18
   Given user is on homepage of flipkart                        # stepDefinations.HomepageTest.user_is_on_homepage_of_flipkart()
   Then Become a seller link should be present on the page      # stepDefinations.HomepageTest.Become_a_seller_link_should_be_present_on_the_page()
 ]]></system-out>
-    <system-err><![CDATA[Oct 22, 2026 2:47:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Oct 22, 2026 4:00:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 155
-Oct 22, 2026 2:47:23 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+Oct 22, 2026 4:00:04 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
 WARNING: Unable to find version of CDP to use for 155.0.8059.85. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Verify that Cart page opened when user clicks on Cart button&quot;, &quot;Homepage&quot;](5)" classname="runner.Runner" time="6.797">
+  <testcase name="runScenario[&quot;Verify that Cart page opened when user clicks on Cart button&quot;, &quot;Homepage&quot;](5)" classname="runner.Runner" time="7.988">
     <system-out><![CDATA[
 Scenario: Verify that Cart page opened when user clicks on Cart button # src/test/resources/features/homepage.feature:23
   Given user is on homepage of flipkart                                # stepDefinations.HomepageTest.user_is_on_homepage_of_flipkart()
   When user clicks on the Cart button                                  # stepDefinations.HomepageTest.user_clicks_on_the_Cart_button()
   Then Cart page should open                                           # stepDefinations.HomepageTest.Cart_page_should_open()
 ]]></system-out>
-    <system-err><![CDATA[Oct 22, 2026 2:47:29 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Oct 22, 2026 4:00:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 155
-Oct 22, 2026 2:47:29 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+Oct 22, 2026 4:00:11 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
 WARNING: Unable to find version of CDP to use for 155.0.8059.85. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Verify that Seller page page opened when user clicks on Become a Seller link&quot;, &quot;Homepage&quot;](6)" classname="runner.Runner" time="9.884">
+  <testcase name="runScenario[&quot;Verify that Seller page page opened when user clicks on Become a Seller link&quot;, &quot;Homepage&quot;](6)" classname="runner.Runner" time="9.924">
     <system-out><![CDATA[
 Scenario: Verify that Seller page page opened when user clicks on Become a Seller link # src/test/resources/features/homepage.feature:29
   Given user is on homepage of flipkart                                                # stepDefinations.HomepageTest.user_is_on_homepage_of_flipkart()
   When user clicks on the Become a Seller link                                         # stepDefinations.HomepageTest.user_clicks_on_the_Become_a_Seller_link()
   Then Seller page should open                                                         # stepDefinations.HomepageTest.Seller_page_should_open()
 ]]></system-out>
-    <system-err><![CDATA[Oct 22, 2026 2:47:35 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Oct 22, 2026 4:00:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 155
-Oct 22, 2026 2:47:36 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+Oct 22, 2026 4:00:19 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
 WARNING: Unable to find version of CDP to use for 155.0.8059.85. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Verify that More Help List Dropdown options are displayed&quot;, &quot;Homepage&quot;](7)" classname="runner.Runner" time="6.262">
+  <testcase name="runScenario[&quot;Verify that More Help List Dropdown options are displayed&quot;, &quot;Homepage&quot;](7)" classname="runner.Runner" time="6.978">
     <system-out><![CDATA[
 Scenario: Verify that More Help List Dropdown options are displayed # src/test/resources/features/homepage.feature:35
   Given user is on homepage of flipkart                             # stepDefinations.HomepageTest.user_is_on_homepage_of_flipkart()
@@ -146,13 +146,13 @@ Scenario: Verify that More Help List Dropdown options are displayed # src/test/r
   And Customer Care option should be display                        # stepDefinations.HomepageTest.Customer_Care_option_should_be_display()
   And Advertise option should be display                            # stepDefinations.HomepageTest.Advertise_option_should_be_display()
 ]]></system-out>
-    <system-err><![CDATA[Oct 22, 2026 2:47:45 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Oct 22, 2026 4:00:29 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 155
-Oct 22, 2026 2:47:45 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+Oct 22, 2026 4:00:29 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
 WARNING: Unable to find version of CDP to use for 155.0.8059.85. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Verify that Login options are displayed&quot;, &quot;Homepage&quot;](8)" classname="runner.Runner" time="6.056">
+  <testcase name="runScenario[&quot;Verify that Login options are displayed&quot;, &quot;Homepage&quot;](8)" classname="runner.Runner" time="6.623">
     <system-out><![CDATA[
 Scenario: Verify that Login options are displayed # src/test/resources/features/homepage.feature:43
   Given user is on homepage of flipkart           # stepDefinations.HomepageTest.user_is_on_homepage_of_flipkart()
@@ -164,110 +164,110 @@ Scenario: Verify that Login options are displayed # src/test/resources/features/
   And Rewards should be display                   # stepDefinations.HomepageTest.Rewards_should_be_display()
   And Gift Cards should be display                # stepDefinations.HomepageTest.Gift_Cards_should_be_display()
 ]]></system-out>
-    <system-err><![CDATA[Oct 22, 2026 2:47:52 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Oct 22, 2026 4:00:36 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 155
-Oct 22, 2026 2:47:52 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+Oct 22, 2026 4:00:36 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
 WARNING: Unable to find version of CDP to use for 155.0.8059.85. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Verify that Mobiles get searched when user search Mobile in the search box&quot;, &quot;Homepage&quot;](9)" classname="runner.Runner" time="8.209">
+  <testcase name="runScenario[&quot;Verify that Mobiles get searched when user search Mobile in the search box&quot;, &quot;Homepage&quot;](9)" classname="runner.Runner" time="9.015">
     <system-out><![CDATA[
 Scenario: Verify that Mobiles get searched when user search Mobile in the search box # src/test/resources/features/homepage.feature:53
   Given user is on homepage of flipkart                                              # stepDefinations.HomepageTest.user_is_on_homepage_of_flipkart()
   When user search mobile in the search box                                          # stepDefinations.HomepageTest.user_search_mobile_in_the_search_box()
   Then mobiles should displays in search results                                     # stepDefinations.HomepageTest.mobiles_should_displays_in_search_results()
 ]]></system-out>
-    <system-err><![CDATA[Oct 22, 2026 2:47:58 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Oct 22, 2026 4:00:42 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 155
-Oct 22, 2026 2:47:58 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+Oct 22, 2026 4:00:42 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
 WARNING: Unable to find version of CDP to use for 155.0.8059.85. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Verify that Login pages open when user clicks on Login button&quot;, &quot;Signup and login page&quot;](10)" classname="runner.Runner" time="4.043">
+  <testcase name="runScenario[&quot;Verify that Login pages open when user clicks on Login button&quot;, &quot;Signup and login page&quot;](10)" classname="runner.Runner" time="4.964">
     <system-out><![CDATA[
 Scenario: Verify that Login pages open when user clicks on Login button # src/test/resources/features/loginPage.feature:4
   Given user is on Login page                                           # stepDefinations.LoginPageTest.user_is_on_login_page()
   Then Login page should open                                           # stepDefinations.LoginPageTest.login_page_should_open()
 ]]></system-out>
-    <system-err><![CDATA[Oct 22, 2026 2:48:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Oct 22, 2026 4:00:51 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 155
-Oct 22, 2026 2:48:06 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+Oct 22, 2026 4:00:51 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
 WARNING: Unable to find version of CDP to use for 155.0.8059.85. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Verify that mobile number field is present on the Login page&quot;, &quot;Signup and login page&quot;](11)" classname="runner.Runner" time="4.217">
+  <testcase name="runScenario[&quot;Verify that mobile number field is present on the Login page&quot;, &quot;Signup and login page&quot;](11)" classname="runner.Runner" time="4.381">
     <system-out><![CDATA[
 Scenario: Verify that mobile number field is present on the Login page # src/test/resources/features/loginPage.feature:8
   Given user is on Login page                                          # stepDefinations.LoginPageTest.user_is_on_login_page()
   Then Mobile number field should present on the Login page            # stepDefinations.LoginPageTest.mobile_number_field_should_present_on_the_login_page()
 ]]></system-out>
-    <system-err><![CDATA[Oct 22, 2026 2:48:10 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Oct 22, 2026 4:00:56 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 155
-Oct 22, 2026 2:48:10 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+Oct 22, 2026 4:00:56 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
 WARNING: Unable to find version of CDP to use for 155.0.8059.85. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Verify that Continue button is enabled on the Login page&quot;, &quot;Signup and login page&quot;](12)" classname="runner.Runner" time="5.04">
+  <testcase name="runScenario[&quot;Verify that Continue button is enabled on the Login page&quot;, &quot;Signup and login page&quot;](12)" classname="runner.Runner" time="5.716">
     <system-out><![CDATA[
 Scenario: Verify that Continue button is enabled on the Login page # src/test/resources/features/loginPage.feature:13
   Given user is on Login page                                      # stepDefinations.LoginPageTest.user_is_on_login_page()
   When user enters "1111111111" mobile number                      # stepDefinations.LoginPageTest.user_enters_mobile_number(java.lang.String)
   Then Continue button should be enabled                           # stepDefinations.LoginPageTest.continue_button_should_be_enabled()
 ]]></system-out>
-    <system-err><![CDATA[Oct 22, 2026 2:48:14 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Oct 22, 2026 4:01:01 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 155
-Oct 22, 2026 2:48:14 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+Oct 22, 2026 4:01:01 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
 WARNING: Unable to find version of CDP to use for 155.0.8059.85. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Verify that Terms of Use and Privacy Policy links are present on the Login page&quot;, &quot;Signup and login page&quot;](13)" classname="runner.Runner" time="4.578">
+  <testcase name="runScenario[&quot;Verify that Terms of Use and Privacy Policy links are present on the Login page&quot;, &quot;Signup and login page&quot;](13)" classname="runner.Runner" time="6.426">
     <system-out><![CDATA[
 Scenario: Verify that Terms of Use and Privacy Policy links are present on the Login page # src/test/resources/features/loginPage.feature:19
   Given user is on Login page                                                             # stepDefinations.LoginPageTest.user_is_on_login_page()
   Then Terms of Use and Privacy Policy links should present on the Login page             # stepDefinations.LoginPageTest.terms_of_use_and_privacy_policy_links_should_present_on_the_login_page()
 ]]></system-out>
-    <system-err><![CDATA[Oct 22, 2026 2:48:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Oct 22, 2026 4:01:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 155
-Oct 22, 2026 2:48:19 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+Oct 22, 2026 4:01:06 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
 WARNING: Unable to find version of CDP to use for 155.0.8059.85. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Verify that Terms of Use page opened when user clicks on the Terms of Use link&quot;, &quot;Signup and login page&quot;](14)" classname="runner.Runner" time="5.869">
+  <testcase name="runScenario[&quot;Verify that Terms of Use page opened when user clicks on the Terms of Use link&quot;, &quot;Signup and login page&quot;](14)" classname="runner.Runner" time="7.575">
     <system-out><![CDATA[
 Scenario: Verify that Terms of Use page opened when user clicks on the Terms of Use link # src/test/resources/features/loginPage.feature:24
   Given user is on Login page                                                            # stepDefinations.LoginPageTest.user_is_on_login_page()
   When user click on Terms of Use link                                                   # stepDefinations.LoginPageTest.user_click_on_terms_of_use_link()
   Then Terms page should open                                                            # stepDefinations.LoginPageTest.terms_page_should_open()
 ]]></system-out>
-    <system-err><![CDATA[Oct 22, 2026 2:48:24 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Oct 22, 2026 4:01:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 155
-Oct 22, 2026 2:48:24 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+Oct 22, 2026 4:01:13 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
 WARNING: Unable to find version of CDP to use for 155.0.8059.85. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Verify that Privacy Policy page opened when user clicks on the Privacy Policy link&quot;, &quot;Signup and login page&quot;](15)" classname="runner.Runner" time="5.762">
+  <testcase name="runScenario[&quot;Verify that Privacy Policy page opened when user clicks on the Privacy Policy link&quot;, &quot;Signup and login page&quot;](15)" classname="runner.Runner" time="6.463">
     <system-out><![CDATA[
 Scenario: Verify that Privacy Policy page opened when user clicks on the Privacy Policy link # src/test/resources/features/loginPage.feature:30
   Given user is on Login page                                                                # stepDefinations.LoginPageTest.user_is_on_login_page()
   When user click on Privacy Policy link                                                     # stepDefinations.LoginPageTest.user_click_on_privacy_policy_link()
   Then Privacy Policy page should open                                                       # stepDefinations.LoginPageTest.privacy_policy_page_should_open()
 ]]></system-out>
-    <system-err><![CDATA[Oct 22, 2026 2:48:30 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Oct 22, 2026 4:01:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 155
-Oct 22, 2026 2:48:30 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+Oct 22, 2026 4:01:20 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
 WARNING: Unable to find version of CDP to use for 155.0.8059.85. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Verify that continue button disabled when user enters eleven digit mobile number&quot;, &quot;Signup and login page&quot;](16)" classname="runner.Runner" time="5.569">
+  <testcase name="runScenario[&quot;Verify that continue button disabled when user enters eleven digit mobile number&quot;, &quot;Signup and login page&quot;](16)" classname="runner.Runner" time="5.63">
     <system-out><![CDATA[
 Scenario: Verify that continue button disabled when user enters eleven digit mobile number # src/test/resources/features/loginPage.feature:36
   Given user is on Login page                                                              # stepDefinations.LoginPageTest.user_is_on_login_page()
   And enters "11111111111" digit mobile number                                             # stepDefinations.LoginPageTest.enters_digit_mobile_number(java.lang.String)
   Then Continue button should disable                                                      # stepDefinations.LoginPageTest.continue_button_should_disable()
 ]]></system-out>
-    <system-err><![CDATA[Oct 22, 2026 2:48:35 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Oct 22, 2026 4:01:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 155
-Oct 22, 2026 2:48:35 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+Oct 22, 2026 4:01:27 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
 WARNING: Unable to find version of CDP to use for 155.0.8059.85. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
