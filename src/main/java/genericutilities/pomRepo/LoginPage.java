@@ -40,32 +40,18 @@ public class LoginPage {
     @FindBy(xpath = "//a[text()='Privacy Policy']")
     WebElement privacyPolicy;
 
-    // @FindBy(xpath = "//a[text()='New to Flipkart? Create an account']")
-    // WebElement newToFlipkartButton;
-
-    // @FindBy(xpath = "//span[@class='llBOFA']")
-    // WebElement fieldErrorMessage;
-
 
     
     @FindBy(xpath = "//button[text()='Continue']")
     WebElement continueButton;
 
 
-    // @FindBy(xpath = "//span[text()='Existing User? Log in']")
-    // WebElement existingUserButtonSignUP;
+
 
     @FindBy(xpath = "//button[text()='✕']")
     WebElement crossIconLoginPage;
 
-    
-    
-    // @FindBy(xpath = "//span[contains(text(),'Sign up')]")
-    // WebElement signUpText;
 
-    
-    // @FindBy(xpath = "//span[text()='Login']")
-    // WebElement loginButton;
 
     @FindBy(xpath = "//span[text()='Use Email-ID']")
     WebElement useEmailIdOption;

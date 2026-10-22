@@ -19,8 +19,7 @@ public class HomePage {
     }
 
 
-    // Finding the elements of the HomePage by using locaters.
-
+    // Finding the elements of the HomePage by using loca
     @FindBy(xpath="(//input[contains(@placeholder, 'Search for Products')])[1]")
     WebElement searchField;
 
